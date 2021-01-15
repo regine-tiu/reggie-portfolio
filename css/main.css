@@ -87,6 +87,117 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ---------- G E N E R A L  S T Y L E S  ----------- */
+html {
+  font-size: 16px;
+}
+
+body, 
+header,
+.flex-container {
+  flex-flow: column;
+  width: 100%;
+}
+
+body {
+  background-color: #ffe263;
+  color: #4c6381;
+  font-family: ivypresto-display, serif;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* ---------- S E C T I O N S ----------- */
+
+/*------------ HERO SECTION -----------*/
+/* ------------ Header ------------ */
+.rb-logo {
+  display: inline-block;
+}
+
+h6 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 30px 0 0 30px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1pt #4c6381;
+  justify-content: flex-start;
+  display: flex;
+}
+
+/* ----------- Navigation Bar ----------- */
+nav {
+  float: right; 
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-top: 25px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: #32915e;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color:#D07676;
+  transition: color 0.2s;
+}
+
+/* ----------- Hero Area ----------- */
+.welcome {
+  width: 90%;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 12em;
+  font-weight: 900;
+  line-height: 1.4;
+  margin-left: 0;
+  margin-top: 7%; 
+  justify-content: center;
+  align-items: center;
+}
+
+h1 span {
+  text-decoration: underline solid #4c6381 3px;
+  text-underline-offset: 10px;
+}
+
+h1 span:hover {
+  color:#D07676;
+  transition: color 0.2s;
+  text-decoration: underline solid #D07676 3px;
+}
+
+/* ------- Social Media Icons ------ */
+
+.social-icons {
+  width: 10%;
+  display: inline-block;
+}
+
+.social-icons ul {
+
+}
+
+ion-icon {
+  color: #32915e;
+  font-size: 1.875em;
+  margin-top: 35px;
+  margin-left: -20px;  
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
