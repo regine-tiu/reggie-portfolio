@@ -109,6 +109,10 @@ body {
   display: flex;
 }
 
+.row {
+  width: 100%;
+}
+
 /* ---------- S E C T I O N S ----------- */
 
 /*------------ HERO SECTION -----------*/
@@ -156,16 +160,15 @@ nav ul li a:active {
 
 /* ----------- Hero Area ----------- */
 .welcome {
-  width: 90%;
+  width: 95%;
   display: inline-block;
+	float:left;
 }
 
 h1 {
-  font-size: 12em;
+  font-size: 11.5em;
   font-weight: 900;
-  line-height: 1.4;
-  margin-left: 0;
-  margin-top: 7%; 
+  line-height: 1.3;
   justify-content: center;
   align-items: center;
 }
@@ -184,19 +187,21 @@ h1 span:hover {
 /* ------- Social Media Icons ------ */
 
 .social-icons {
-  width: 10%;
-  display: inline-block;
+  width: 2%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  padding-right: 3%;
 }
 
 .social-icons ul {
-
+  list-style: none;
 }
 
 ion-icon {
   color: #32915e;
-  font-size: 1.875em;
+  font-size: 2em;
   margin-top: 35px;
-  margin-left: -20px;  
 }
 /* ==========================================================================
    Helper classes
