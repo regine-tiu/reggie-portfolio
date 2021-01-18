@@ -113,6 +113,17 @@ body {
   width: 100%;
 }
 
+img {
+  
+}
+
+h2 {
+  color: #D07676;
+  font-size: 2.5em;
+  text-decoration: underline solid #D07676 2px;
+  text-underline-offset: 4px;
+}
+
 /* ---------- S E C T I O N S ----------- */
 
 /*------------ HERO SECTION -----------*/
@@ -203,6 +214,43 @@ ion-icon {
   font-size: 2em;
   margin-top: 35px;
 }
+
+/*------------ ABOUT SECTION -----------*/
+.profile-pic {
+  background-image: url(../img/profile-pic/reggieb.jpg);
+  background-size: cover;
+  display:inline-flex;
+  float:left;
+  height: 500px;
+  width: 40%;
+}
+
+.about-text {
+  display: inline-flex;
+  float: left;
+  width: 50%;
+}
+
+
+/*------------ SKILLS SECTION -----------*/
+.coding-skills, 
+.coding-languages {
+  display: inline-flex;
+  float: left;
+  width: 50%;
+}
+
+.coding-skills {
+  padding-left: 10%;
+}
+
+.coding li {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
