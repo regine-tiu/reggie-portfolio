@@ -119,9 +119,14 @@ img {
 
 h2 {
   color: #D07676;
-  font-size: 2.5em;
+  font-size: 3em;
   text-decoration: underline solid #D07676 2px;
   text-underline-offset: 4px;
+}
+
+.flex-end {
+  display: flex;
+  justify-items: flex-end;
 }
 
 /* ---------- S E C T I O N S ----------- */
@@ -159,8 +164,8 @@ nav ul li a:visited {
   font-size: 1.2em;
   font-weight: bold;
   letter-spacing: 1px;
-  padding-left: 20px;
   text-decoration: none;
+  margin-right: 25px;
 }
 
 nav ul li a:hover,
@@ -177,11 +182,10 @@ nav ul li a:active {
 }
 
 h1 {
-  font-size: 11.5em;
+  font-size: 12em;
   font-weight: 900;
   line-height: 1.3;
-  justify-content: center;
-  align-items: center;
+  margin: 0.4em 0;
 }
 
 h1 span {
@@ -198,11 +202,9 @@ h1 span:hover {
 /* ------- Social Media Icons ------ */
 
 .social-icons {
-  width: 2%;
+  width: 5%;
   display: flex;
-  justify-content: center;
-  padding-top: 20%;
-  padding-right: 3%;
+  padding-top: 17%;
 }
 
 .social-icons ul {
@@ -212,25 +214,36 @@ h1 span:hover {
 ion-icon {
   color: #32915e;
   font-size: 2em;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 /*------------ ABOUT SECTION -----------*/
 .profile-pic {
   background-image: url(../img/profile-pic/reggieb.jpg);
   background-size: cover;
+  border-radius: 5%;
+  box-shadow: 25px 25px #c47777b4;
   display:inline-flex;
   float:left;
-  height: 500px;
-  width: 40%;
+  margin: 5%;
+  height: 450px;
+  width: 35%;
+  
 }
 
 .about-text {
   display: inline-flex;
+  flex-flow: column;
   float: left;
-  width: 50%;
+  margin: 0% 5%;
+  width: 40%;
 }
 
+p {
+  font-size: 1.9em;
+  line-height: 1.3;
+  margin-top: -4%;
+}
 
 /*------------ SKILLS SECTION -----------*/
 .coding-skills, 
