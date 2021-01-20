@@ -259,8 +259,8 @@ p {
 .coding-languages {
   display: inline-block;
   float: left;
- padding-right: 180px;
- padding-bottom: 5%;
+  padding-right: 180px;
+  padding-bottom: 5%;
 }
 
 .coding-skills {
@@ -283,6 +283,7 @@ h4 {
   color:antiquewhite;
   font-size: 2em;
   font-weight: normal;
+  margin: 0;
 }
 
 h5 {
@@ -292,34 +293,57 @@ h5 {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1.5;
+  margin: 0;
+  margin-top: 5%;
   text-align: center;
 }
 
 .project-item {
   display: flex;
-  
   align-items: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .title-card {
   background-color:#4c6381;
-  border-radius: 3%;
-  display: inline-block;
-  padding: 2% 4%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -3%;
+  margin-right: 5%;
+  padding: 3%;
   text-align: center;
-  height: 200px;
+  height: auto;
   width: 250px
-
 }
 
 .project-screenshot {
-  border: 3px solid #fff;
-  border-radius: 50px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  box-shadow: 35px 35px #d07676d3;
   float: left;
   display: inline-block;
-  height:600px;
-  width: 800px;
+  height:500px;
+  width: 750px;
 }
+
+.project-1 {
+  background-image: url(../img/screenshots/rookwood-editing.png);
+  background-size: cover;
+}
+
+.project-2 {
+  background-image: url(../img/screenshots/rogue-pickings.png);
+  background-size: cover;
+}
+
+.project-3 {
+  background-image: url(../img/screenshots/unplugged.png);
+  background-size: cover;
+}
+
 
 
 /* ==========================================================================
