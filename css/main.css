@@ -312,7 +312,7 @@ h5 {
   flex-direction: column;
   align-items: center;
   margin-left: -3%;
-  margin-right: 5%;
+  margin-right: 7%;
   padding: 3%;
   text-align: center;
   height: auto;
@@ -337,6 +337,7 @@ h5 {
 .project-2 {
   background-image: url(../img/screenshots/rogue-pickings.png);
   background-size: cover;
+  border: 2px solid #4c6381;
 }
 
 .project-3 {
