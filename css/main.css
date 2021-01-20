@@ -241,6 +241,12 @@ ion-icon:active {
   width: 35%;
 }
 
+
+.profile-pic:hover {
+  transform: scale(1.008);
+  transition: 0.3;
+}
+
 .about-text {
   display: inline-flex;
   flex-flow: column;
@@ -331,6 +337,11 @@ h5 {
   width: 250px
 }
 
+.title-card:hover {
+  transform: scale(1.008);
+  transition: 0.3;
+}
+
 .project-screenshot img{
   display: inline-block;
   border: 3px solid #fff;
@@ -339,6 +350,10 @@ h5 {
   width: 750px
 }
 
+.project-screenshot img:hover{
+  transform: scale(1.005);
+  transition: 0.3;
+}
 
 .project-2 {
   border: 3px solid #4c6381;
