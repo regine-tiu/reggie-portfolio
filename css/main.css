@@ -279,7 +279,47 @@ p {
 }
 
 /*------------ PROJECTS SECTION -----------*/
+h4 {
+  color:antiquewhite;
+  font-size: 2em;
+  font-weight: normal;
+}
 
+h5 {
+  color: #fff;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.project-item {
+  display: flex;
+  
+  align-items: center;
+}
+
+.title-card {
+  background-color:#4c6381;
+  border-radius: 3%;
+  display: inline-block;
+  padding: 2% 4%;
+  text-align: center;
+  height: 200px;
+  width: 250px
+
+}
+
+.project-screenshot {
+  border: 3px solid #fff;
+  border-radius: 50px;
+  float: left;
+  display: inline-block;
+  height:600px;
+  width: 800px;
+}
 
 
 /* ==========================================================================
