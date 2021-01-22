@@ -114,19 +114,36 @@ body {
   position: relative;
 }
 
-.color-block {
+
+/* ------- shape: green blob 1 ------- */
+.color-block-1 {
   position: absolute;
   top: 40%;
   left: -30%;
-  transform: rotate(5deg);
+  transform: rotate(7deg);
   z-index: 1;
-
 }
 
 .green-blob-1 img {
- width: 70%; 
+ width: 80%; 
  height: auto;
 }
+
+/* ------- shape: white squiggle 1 ------- */
+.color-block-2 {
+  position: absolute;
+  top: 110%;
+  left:0;
+  transform: rotate(0deg);
+  z-index: 2;
+}
+
+.white-squiggle-1 img{
+  height: auto;
+  width: 75%;
+}
+
+/* -------------------------------- */
 
 h2 {
   color: #D07676;
@@ -208,6 +225,7 @@ h1 {
   font-weight: 900;
   line-height: 1.3;
   margin: 0.4em 0;
+  margin-left: 0.3em;
   position: relative;
   z-index: 3;
 }
@@ -261,12 +279,15 @@ ion-icon:active {
   margin: 8% 7%;
   height: 450px;
   width: 35%;
+  position: relative;
+  z-index: 3;
 }
-
 
 .profile-pic:hover {
   transform: scale(1.003);
   transition: 0.3;
+  position: relative;
+  z-index: 3;
 }
 
 .about-text {
@@ -275,6 +296,8 @@ ion-icon:active {
   float: left;
   margin: 0 4%;
   width: 40%;
+  position: relative;
+  z-index: 3;
 }
 
 p {
@@ -308,9 +331,17 @@ p {
   transition: 0.2s;
 }
 
-
 .skills-text {
   width: 100%;
+}
+
+/* ------- green blob 1 ------- */
+.color-block-3 {
+  position: absolute;
+  top: 260%;
+  left: 40%;
+  transform: rotate(-15deg);
+  z-index: 1;
 }
 
 /*------------ PROJECTS SECTION -----------*/
@@ -349,6 +380,8 @@ h5 {
   align-items: center;
   margin-top: 5%;
   margin-bottom: 13%;
+  position: relative;
+  z-index: 3;
 }
 
 .title-card {
@@ -390,6 +423,48 @@ h5 {
   transition: transform 0.3;
 }
 
+/* ------- shape: green blob 3 & 4 ------ */
+.color-block-4 {
+  position: absolute;
+  top: 42%;
+  left: -40%;
+  transform: rotate(7deg);
+  z-index: 1;
+}
+
+.green-blob-3 img {
+ width: 80%; 
+ height: auto;
+}
+
+.color-block-5 {
+  position: absolute;
+  top: 42%;
+  left: -40%;
+  transform: rotate(deg);
+  z-index: 1;
+}
+
+.green-blob-4 img {
+ width: 80%; 
+ height: auto;
+}
+
+.color-block-6 {
+  position: absolute;
+  top: 78%;
+  left: 5%;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+.green-blob-5 img {
+ width: 83%; 
+ height: auto;
+}
+
+
+
 
 /*------------ CONTACT SECTION -----------*/
 label,
@@ -410,9 +485,14 @@ textarea {
   border: 2px solid #4c6381;
 }
 
+.contact-section {
+  position: relative;
+  z-index: 3;
+}
+
 .contact-msg {
   color:#4c6381;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 3%;
   text-align: left;
 }
