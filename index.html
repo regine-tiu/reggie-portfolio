@@ -138,7 +138,57 @@
 </section>
 
 <section class="contact-section">
+  <div class="row">
+    <h2>Contact Me</h2>
+    <h5>As of January 2021, I am available for commissions.</h5>
+    <form
+    action="https://formspree.io/f/xzbkovwo"
+    method="POST">
 
+      <label>
+        Name
+        <input type="text" id="name" name="_replyto">
+      </label>
+
+      <label>
+        Email
+        <input type="text" id="c-email" name="client-email">
+      </label>
+
+      <label>
+        Company
+        <input type="text" id="cname" name="company-name" placeholder="If applicable.">
+      </label>
+
+      <label>
+        Website
+        <input type="text" id="c_website" name="client-website" placeholder="If applicable.">
+      </label>
+
+      <label>
+        What type of service are you looking for?
+        <select id="service-type" name="service-type">
+          <option value="gd">Graphic Design</option>
+          <option value="wd">Web Design</option>
+          <option value="fewd">Front End Web Development</option>
+          <option value="combo">A Combination of Services</option>
+          <option value="not-sure">Not sure yet</option>
+        </select>
+      </label>
+
+      <label>
+        Subject
+        <input type="text" id="subject" name="subject-line">
+      </label>
+
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
 </section>
 
   <!-- Add your site or application content here -->
