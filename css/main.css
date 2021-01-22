@@ -385,13 +385,15 @@ textarea  {
 input,
 select,
 textarea {
+  background-color: #fff;
   border: 2px solid #4c6381;
 }
 
 .contact-msg {
   color:#4c6381;
   font-size: 1em;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+  text-align: left;
 }
 
 button {
@@ -400,7 +402,7 @@ button {
   border: 2px solid #4c6381;
   color:#4c6381;
   margin-top: 5%;
-  padding: 2.5% 5%;
+  padding: 2.3% 5%;
 }
 
 button:hover {
@@ -410,6 +412,11 @@ button:hover {
   transition: 0.2;
 }
 
+form {
+  width: 500px;
+  display: inline-block;
+  float:left;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
