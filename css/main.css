@@ -423,7 +423,7 @@ h5 {
   transition: transform 0.3;
 }
 
-/* ------- shape: green blob 3 & 4 ------ */
+/* ------- shape: green blob 3 - 5 ------ */
 .color-block-4 {
   position: absolute;
   top: 42%;
@@ -462,9 +462,6 @@ h5 {
  width: 83%; 
  height: auto;
 }
-
-
-
 
 /*------------ CONTACT SECTION -----------*/
 label,
@@ -516,8 +513,20 @@ button:hover {
 form {
   width: 500px;
   display: inline-block;
-  float:left;
+  float: left;
+  position: relative;
+  z-index: 3;
 }
+
+/* ------- shape: green blob 6 ------ */
+.color-block-7 {
+  position: absolute;
+  top: 240%;
+  left: 60%;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
