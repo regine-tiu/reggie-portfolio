@@ -390,7 +390,24 @@ textarea {
 
 .contact-msg {
   color:#4c6381;
-  font-size: 1.2em;
+  font-size: 1em;
+  margin-bottom: 5%;
+}
+
+button {
+  background-color:transparent;
+  border-radius: 20px;
+  border: 2px solid #4c6381;
+  color:#4c6381;
+  margin-top: 5%;
+  padding: 2.5% 5%;
+}
+
+button:hover {
+  color:antiquewhite;
+  background-color: #D07676;
+  border: 2px solid #D07676;
+  transition: 0.2;
 }
 
 /* ==========================================================================
