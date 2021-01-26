@@ -170,20 +170,6 @@ h6 {
  height: auto;
 }
 
-/* ------- shape: white squiggle 1 ------- */
-.color-block-2 {
-  position: absolute;
-  top: 110%;
-  left:0;
-  transform: rotate(0deg);
-  z-index: 2;
-}
-
-.white-squiggle-1 img{
-  height: auto;
-  width: 75%;
-}
-
 /* ----------- Navigation Bar ----------- */
 nav {
   float: right; 
@@ -193,7 +179,7 @@ nav {
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin-top: 28px;
+  margin-top: 18px;
 }
 
 nav ul li a:link,
@@ -326,6 +312,8 @@ p {
   font-weight: bold;
   letter-spacing: 1px;
   padding-top: 10px;
+  position: relative;
+  z-index: 3;
 }
 
 .coding li:hover {
@@ -419,7 +407,7 @@ h5 {
 
 
 /* ------- green blob 2 ------- */
-.color-block-3 {
+.color-block-2 {
   position: absolute;
   top: -18%;
   left: 58%;
@@ -427,7 +415,7 @@ h5 {
 }
 
 /* ------- shape: green blob 3 - 5 ------ */
-.color-block-4 {
+.color-block-3 {
   position: absolute;
   top: 42%;
   left: -40%;
@@ -440,30 +428,11 @@ h5 {
  height: auto;
 }
 
-.color-block-5 {
+.color-block-4 {
   position: absolute;
-  top: 42%;
-  left: -40%;
-  transform: rotate(deg);
+  top: 86%;
+  left: 0%;
   z-index: 1;
-}
-
-.green-blob-4 img {
- width: 80%; 
- height: auto;
-}
-
-.color-block-6 {
-  position: absolute;
-  top: 78%;
-  left: 5%;
-  transform: rotate(148deg);
-  z-index: 1;
-}
-
-.green-blob-5 img {
- width: 83%; 
- height: auto;
 }
 
 /*------------ CONTACT SECTION -----------*/
@@ -522,7 +491,7 @@ form {
 }
 
 /* ------- shape: green blob 6 ------ */
-.color-block-7 {
+.color-block-5 {
   position: absolute;
   top: 240%;
   left: 55%;
