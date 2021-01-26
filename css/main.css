@@ -121,7 +121,7 @@ h2 {
   text-decoration: underline solid #D07676 2px;
   text-underline-offset: 4px;
   width: 100%;
-  margin-left: -5%;
+  margin-left: -3%;
 }
 
 .about-title {
@@ -131,7 +131,7 @@ h2 {
 }
 
 .skills-title {
-  margin-left: -10%;
+  margin-left: -8%;
 }
 
 .color-block {
@@ -264,9 +264,9 @@ ion-icon:active {
   box-shadow: 35px 35px #d07676d3;
   display:inline-flex;
   float:left;
-  margin: 8% 7%;
+  margin: 8% 5%;
   height: 450px;
-  width: 35%;
+  width: 450px;
   position: relative;
   z-index: 3;
 }
@@ -430,8 +430,9 @@ h5 {
 
 .color-block-4 {
   position: absolute;
-  top: 86%;
-  left: 0%;
+  top: 85%;
+  left: 3%;
+  transform: rotate(-10deg);
   z-index: 1;
 }
 
