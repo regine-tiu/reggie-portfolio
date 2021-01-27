@@ -128,11 +128,6 @@ h2 {
   margin-left: -3%;
 }
 
-.about-title {
-  display: flex;
-  justify-items: flex-end;
-  margin-left: 0;
-}
 
 .skills-title {
   margin-left: -8%;
@@ -405,7 +400,7 @@ p {
     border-radius: 40px;
     box-shadow: 15px 15px #d07676d3;
     display:inline-block;
-    margin: 8% 0 0 25%;
+    margin: 8% 0 0 30%;
     height: 325px;
     width: 325px;  
   }
@@ -415,6 +410,10 @@ p {
     margin-top: 4%;
     margin-left: 12.5%;
     width: 75%;
+  }
+
+  .about-title {
+    text-align: center;
   }
 }
 
@@ -620,6 +619,24 @@ h5 {
   .project-item {
     display: block;
   }
+
+  h4 a:link,
+  h4 a:visited {
+    font-size: 1.5em;
+  }
+
+  .title-card {
+    width: 200px;
+    margin-left: 30%;
+    margin-bottom: 7%;
+    padding: 4%;
+  } 
+
+  .project-screenshot img{
+    box-shadow: 20px 20px #d07676d3; 
+  }
+
+
 }
 
 /* ------- green blob 2 ------- */
