@@ -158,6 +158,7 @@ h2 {
   }  
 }
 
+
 /* ---------- S E C T I O N S ----------- */
 
 /*------------ HERO SECTION -----------*/
@@ -272,11 +273,19 @@ h1 span:hover {
 }
 
 @media only screen and (max-width: 1024px) {
-
   h1 {
     font-size: 10em;
     font-weight: 900;
     line-height: 1.3;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 9em;
+    line-height: 1.18;
+    margin-left: 15%;
+    width: 80%;
   }
 }
 /* ------- Social Media Icons ------ */
@@ -312,6 +321,13 @@ ion-icon:active {
     color: #32915e;
     font-size: 2em;
     margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .social-icons {
+    margin-left: -8%;
+    padding-top: 20%
   }
 }
 
@@ -359,8 +375,6 @@ p {
   }  
 }
 
-
-
 @media only screen and (max-width: 1024px) {
   .profile-pic {
     height: 320px;
@@ -379,6 +393,9 @@ p {
   } 
 }
 
+@media only screen and (max-width: 768px) {
+ 
+}
 
 /*------------ SKILLS SECTION -----------*/
 .coding-skills, 
