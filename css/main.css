@@ -153,7 +153,11 @@ h2 {
   }  
 }
 
-
+@media only screen and (max-width: 768px) {
+   .skills-title {
+    margin-left: 0%;
+  }  
+}
 
 /* ---------- S E C T I O N S ----------- */
 
@@ -400,7 +404,7 @@ p {
     border-radius: 40px;
     box-shadow: 15px 15px #d07676d3;
     display:inline-block;
-    margin: 8% 0 0 30%;
+    margin: 8% calc(50% - 325px /2);
     height: 325px;
     width: 325px;  
   }
@@ -552,13 +556,13 @@ h5 {
   border: 3px solid #fff;
   border-radius: 30px;   
   box-shadow: 35px 35px #d07676d3; 
-  height: 500px; 
+  height: 66%; 
   width: 750px
 }
 
-.project-2 {
+.project-2 img {
   border: 3px solid #4c6381;
-  border-radius: 30px; 
+  
 }
 
 .project-screenshot img:hover{
@@ -569,7 +573,6 @@ h5 {
 
 @media only screen and (max-width: 1100px) {
   .project-screenshot img {
-    height: 450px; 
     width: 675px
   }
 
@@ -590,7 +593,6 @@ h5 {
   }
   
   .project-screenshot img {
-    height: 400px; 
     width: 600px
   }
  
@@ -605,8 +607,7 @@ h5 {
     margin-left: 10%;
   }
   
-  .project-screenshot img {
-    height: 380px; 
+  .project-screenshot img { 
     width: 570px
   }
 }
@@ -633,10 +634,10 @@ h5 {
   } 
 
   .project-screenshot img{
-    box-shadow: 20px 20px #d07676d3; 
+    box-shadow: 0px 0px #d07676d3; 
+    width: calc(100% - 8%);
+    margin: 0 4%
   }
-
-
 }
 
 /* ------- green blob 2 ------- */
@@ -657,12 +658,7 @@ h5 {
 
 @media only screen and (max-width: 768px) {
   .color-block-2 {
-    top: -17%;
-    left: 32%;
-  }
-
-  .green-blob-2 img {
-    width: 90%;
+    display: none;
   }
 }
 
