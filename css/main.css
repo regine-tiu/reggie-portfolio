@@ -285,9 +285,9 @@ h1 span:hover {
 
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 9em;
+    font-size: 8.5em;
     line-height: 1.18;
-    margin-left: 15%;
+    margin-left: 13%;
     width: 70%;
   }
 }
@@ -473,6 +473,10 @@ p {
     padding-right: 80px;
     padding-bottom: 5%;
   } 
+
+  .skills-title {
+    margin-left: 0%;
+  }  
 }
 
 @media only screen and (max-width: 768px) {
@@ -482,9 +486,14 @@ p {
 
   .coding-skills, 
   .coding-languages {
-    padding-right: 80px;
-    padding-bottom: 5%;
+    padding-bottom: 20px;
+    padding-right: 15%;
+    padding-left: 3%;
   } 
+
+  .skills-title {
+    margin-left: 4%;
+  }  
 }
 
 /*------------ PROJECTS SECTION -----------*/
@@ -562,7 +571,6 @@ h5 {
 
 .project-2 img {
   border: 3px solid #4c6381;
-  
 }
 
 .project-screenshot img:hover{
@@ -630,7 +638,7 @@ h5 {
     width: 200px;
     margin-left: 30%;
     margin-bottom: 7%;
-    padding: 4%;
+    padding: 3%;
   } 
 
   .project-screenshot img{
@@ -754,6 +762,19 @@ form {
   }
 }
 
+@media only screen and (max-width: 768px){
+  .contact-section {
+    text-align: center;
+    }
+
+  .contact-msg {
+    font-size: 1em;
+  }
+
+  form {
+    width: 100%;
+  }  
+} 
 /* ------- shape: green blob 6 ------ */
 .color-block-5 {
   position: absolute;
@@ -779,6 +800,12 @@ form {
     position: absolute;
     top: 250%;
     left: 35%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .color-block-5 {
+    display: none;
   }
 }
 
