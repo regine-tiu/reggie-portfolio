@@ -157,6 +157,10 @@ h2 {
    .skills-title {
     margin-left: 0%;
   }  
+
+  section {
+    margin-bottom: 3%;
+  }
 }
 
 /* ---------- S E C T I O N S ----------- */
@@ -635,8 +639,8 @@ h5 {
   }
 
   .title-card {
-    width: 200px;
-    margin-left: 30%;
+    width: calc(100% - 60%);
+    margin: 0 30% 7% 30%;
     margin-bottom: 7%;
     padding: 3%;
   } 
@@ -690,6 +694,15 @@ h5 {
   left: 3%;
   transform: rotate(-10deg);
   z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .color-block-4 {
+    position: absolute;
+    top: 0%;
+    left: 18%;
+    transform: rotate(80deg);
+  }
 }
 
 /*------------ CONTACT SECTION -----------*/
