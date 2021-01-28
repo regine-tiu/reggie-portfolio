@@ -330,8 +330,27 @@ ion-icon:active {
 }
 
 @media only screen and (max-width: 768px) {
- 
-    
+  .social-icons {
+    width: 75%;
+    margin: 0 12.5%;
+    padding-top: 7%;
+  }
+
+  .social-icons ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0;
+  }  
+  
+  .social-icons ul li {
+    display: inline-block;
+  }
+
+  ion-icon {
+    font-size: 2.2em;
+  }
+
 }
 
 /*------------ ABOUT SECTION -----------*/
