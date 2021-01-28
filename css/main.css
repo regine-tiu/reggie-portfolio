@@ -125,7 +125,6 @@ h2 {
   text-decoration: underline solid #D07676 2px;
   text-underline-offset: 4px;
   width: 100%;
-  margin-left: -3%;
 }
 
 
@@ -434,10 +433,6 @@ p {
   padding-bottom: 5%;
 }
 
-.coding-skills {
-  padding-left: -100px;
-}
-
 .coding li {
   font-size: 2em;
   font-weight: bold;
@@ -533,10 +528,6 @@ h5 {
   text-align: center;
 }
 
-.project-section {
-  margin-left: -3%;
-}
-
 .project-item {
   display: flex;
   align-items: center;
@@ -551,11 +542,11 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 8%;
+  margin-left: 7%;
   padding: 3%;
   text-align: center;
   height: auto;
-  width: 280px
+  width: 13%;
 }
 
 .title-card:hover {
@@ -569,8 +560,8 @@ h5 {
   border: 3px solid #fff;
   border-radius: 30px;   
   box-shadow: 35px 35px #d07676d3; 
-  height: 66%; 
-  width: 750px
+  width: 80%;
+  margin-left:10%
 }
 
 .project-2 img {
@@ -583,46 +574,20 @@ h5 {
   transition: transform 0.3;
 }
 
-@media only screen and (max-width: 1100px) {
-  .project-screenshot img {
-    width: 675px
-  }
-
-  h4 a:link,
-  h4 a:visited {
-    font-size: 1.5em;
-  }
-  
-  h5 {
-    font-size: 0.8em;
-  }  
-}
 
 @media only screen and (max-width: 1024px) {
   h4 a:link,
   h4 a:visited {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
-  
-  .project-screenshot img {
-    width: 600px
+
+  h5 {
+    font-size: 0.8em;
+    margin-top: 7%;
   }
- 
-  .title-card {
-    margin-right: 6%;
-    width: 230px
-  }
+
 }
 
-@media only screen and (max-width: 900px) {
-  .project-section {
-    margin-left: 10%;
-  }
-  
-  .project-screenshot img { 
-    width: 570px
-  }
-}
 
 @media only screen and (max-width: 768px) {
   .project-section {
@@ -633,10 +598,7 @@ h5 {
     display: block;
   }
 
-  h4 a:link,
-  h4 a:visited {
-    font-size: 1.5em;
-  }
+  
 
   .title-card {
     width: calc(100% - 60%);
@@ -645,10 +607,9 @@ h5 {
     padding: 3%;
   } 
 
+
   .project-screenshot img{
     box-shadow: 0px 0px #d07676d3; 
-    width: calc(100% - 8%);
-    margin: 0 4%
   }
 }
 
