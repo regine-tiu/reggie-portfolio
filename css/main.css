@@ -397,8 +397,7 @@ p {
 .coding-languages {
   display: inline-block;
   float: left;
-  padding-right: 200px;
-  padding-bottom: 5%;
+  padding: 0 220px 5% 0;
 }
 
 .coding li {
@@ -419,13 +418,6 @@ p {
   width: 90%;
 }
 
-
-@media only screen and (max-width: 1100px) {
-  .skills-title {
-    margin-left: -4%;
-  }  
-}
-
 @media only screen and (max-width: 1024px) {
   .coding li {
     font-size: 1.8em;
@@ -440,10 +432,6 @@ p {
     padding-right: 80px;
     padding-bottom: 5%;
   } 
-
-  .skills-title {
-    margin-left: 0%;
-  }  
 }
 
 @media only screen and (max-width: 768px) {
@@ -457,13 +445,13 @@ p {
     padding-right: 15%;
     padding-left: 3%;
   } 
-
-  .skills-title {
-    margin-left: 4%;
-  }  
 }
 
 /*------------ PROJECTS SECTION -----------*/
+.projects-title {
+  margin-left: 7%;
+}
+
 h4 {
   margin-block-start: 0%;
   margin-block-end: 0%;
@@ -644,7 +632,6 @@ textarea {
 }
 
 .contact-section {
-  padding-left: 5%;
   position: relative;
   z-index: 3;
 }
