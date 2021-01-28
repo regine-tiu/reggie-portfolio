@@ -115,7 +115,7 @@ body {
 }
 
 section {
-  margin-bottom: 7%;
+  margin-bottom: 5%;
 }
 
 h2 {
@@ -125,11 +125,6 @@ h2 {
   text-decoration: underline solid #D07676 2px;
   text-underline-offset: 4px;
   width: 100%;
-}
-
-
-.skills-title {
-  margin-left: -8%;
 }
 
 .color-block {
@@ -146,10 +141,6 @@ h2 {
   h2 {
     font-size: 2.5em;
   }
-
-  .skills-title {
-    margin-left: -4%;
-  }  
 }
 
 @media only screen and (max-width: 768px) {
@@ -158,7 +149,7 @@ h2 {
   }  
 
   section {
-    margin-bottom: 3%;
+    margin-bottom: 10%;
   }
 }
 
@@ -185,7 +176,6 @@ h6 {
     font-size: 1.5em;
   }
 }
-
 
 /* ------- shape: green blob 1 ------- */
 .color-block-1 {
@@ -337,18 +327,15 @@ ion-icon:active {
 }
 
 /*------------ ABOUT SECTION -----------*/
-.about-section{
-  margin-left: 3%;
-}
-.profile-pic {
-  background-image: url(../img/profile-pic/reggieb.jpg);
-  background-size: cover;
+
+.profile-pic img {
   border-radius: 5%;
   box-shadow: 35px 35px #d07676d3;
   display:inline-block;
-  margin: 8% 0 0% 5%;
-  height: 450px;
-  width: 450px;
+  float: left;
+  margin: 8%;
+  height: auto;
+  width: 35%;
   position: relative;
   z-index: 3;
 }
@@ -362,8 +349,8 @@ ion-icon:active {
 
 .about-text {
   display: inline-block;
+  float: left;
   flex-flow: column;
-  margin-left: 8%;
   width: 45%;
 }
 
@@ -373,19 +360,8 @@ p {
   margin-top: 2%;
 }
 
-@media only screen and (max-width: 1100px) {
-  .profile-pic {
-    height: 400px;
-    width: 400px;
-  }  
-}
 
 @media only screen and (max-width: 1024px) {
-  .profile-pic {
-    height: 320px;
-    width: 320px;
-  }  
-
   p {
     margin-top: 3%;
     font-size: 1.5em;
@@ -394,28 +370,20 @@ p {
   .about-text {
     display: inline-block;
     flex-flow: column;
-    width: 44%;
   } 
 }
 
 @media only screen and (max-width: 768px) {
-  .about-section {
-    margin-left: 0;
-  }
-
-  .profile-pic {
+  .profile-pic img {
     border-radius: 40px;
     box-shadow: 15px 15px #d07676d3;
-    display:inline-block;
-    margin: 8% calc(50% - 325px /2);
-    height: 325px;
-    width: 325px;  
+    width: 50%;
+    margin: 0 25%;
   }
 
   .about-text {
     display: block;
-    margin-top: 4%;
-    margin-left: 12.5%;
+    margin: 4% 12.5% 0 12.5%;
     width: 75%;
   }
 
@@ -429,7 +397,7 @@ p {
 .coding-languages {
   display: inline-block;
   float: left;
-  padding-right: 150px;
+  padding-right: 200px;
   padding-bottom: 5%;
 }
 
@@ -574,7 +542,6 @@ h5 {
   transition: transform 0.3;
 }
 
-
 @media only screen and (max-width: 1024px) {
   h4 a:link,
   h4 a:visited {
@@ -585,31 +552,23 @@ h5 {
     font-size: 0.8em;
     margin-top: 7%;
   }
-
 }
 
-
 @media only screen and (max-width: 768px) {
-  .project-section {
-    margin-left: 0%;
-  }
-  
   .project-item {
     display: block;
   }
 
-  
-
   .title-card {
-    width: calc(100% - 60%);
-    margin: 0 30% 7% 30%;
-    margin-bottom: 7%;
+    width: 40%;
+    margin: 0 30% 7% 28%;
     padding: 3%;
   } 
 
-
   .project-screenshot img{
     box-shadow: 0px 0px #d07676d3; 
+    margin-left:0%;
+    margin: 0 10%;
   }
 }
 
@@ -620,7 +579,6 @@ h5 {
   left: 55%;
   z-index: 1;
 }
-
 
 @media only screen and (max-width: 1024px) {
   .color-block-2 {
@@ -739,6 +697,7 @@ form {
 @media only screen and (max-width: 768px){
   .contact-section {
     text-align: center;
+    padding-left:0;
     }
 
   .contact-msg {
