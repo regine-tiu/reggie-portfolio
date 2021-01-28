@@ -115,7 +115,7 @@ body {
 }
 
 section {
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 h2 {
@@ -125,6 +125,8 @@ h2 {
   text-decoration: underline solid #D07676 2px;
   text-underline-offset: 4px;
   width: 100%;
+  position: relative;
+  z-index: 3;
 }
 
 .color-block {
@@ -147,9 +149,11 @@ h2 {
    .skills-title {
     margin-left: 0%;
   }  
+}
 
-  section {
-    margin-bottom: 10%;
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 2em;
   }
 }
 
@@ -167,8 +171,6 @@ h6 {
   margin: 30px 0 0 30px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1pt #4c6381;
-  justify-content: flex-start;
-  display: flex;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -177,10 +179,21 @@ h6 {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .rb-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  h6 {
+    margin: 30px 0 0 0;
+  }
+}
+
 /* ------- shape: green blob 1 ------- */
 .color-block-1 {
   position: absolute;
-  top: 40%;
+  top: 32%;
   left: -30%;
   transform: rotate(7deg);
   z-index: 1;
@@ -245,6 +258,14 @@ nav ul li a:active {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  nav {
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
 /* ----------- Hero Area ----------- */
 .welcome {
   width: 95%;
@@ -289,7 +310,14 @@ h1 span:hover {
     font-size: 8.5em;
     line-height: 1.18;
     margin-left: 13%;
-    width: 70%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 6.5em;
+    margin-left: 10%;
   }
 }
 /* ------- Social Media Icons ------ */
@@ -346,11 +374,16 @@ ion-icon:active {
   .social-icons ul li {
     display: inline-block;
   }
+}
 
+@media only screen and (max-width: 480px) {
   ion-icon {
-    font-size: 2.2em;
+    font-size: 1.9em;
   }
 
+  .social-icons {
+    padding-top: 0%;
+  }
 }
 
 /*------------ ABOUT SECTION -----------*/
@@ -379,6 +412,8 @@ ion-icon:active {
   float: left;
   flex-flow: column;
   width: 45%;
+  position: relative;
+  z-index: 3;
 }
 
 p {
@@ -386,7 +421,6 @@ p {
   line-height: 1.4;
   margin-top: 2%;
 }
-
 
 @media only screen and (max-width: 1024px) {
   p {
@@ -410,12 +444,19 @@ p {
 
   .about-text {
     display: block;
-    margin: 4% 12.5% 0 12.5%;
-    width: 75%;
+    margin: 4% 15% 0 15%;
+    width: 70%;
+    text-align: justify;
   }
 
   .about-title {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 1.2em;
   }
 }
 
@@ -471,8 +512,16 @@ p {
     padding-bottom: 10px;
     padding-right: 50px;
   } 
+}
 
-  
+@media only screen and (max-width: 480px) {
+  .coding li{
+    font-size: 1.3em;
+  }
+
+  .skills-section {
+    text-align:center;
+  }
 }
 
 /*------------ PROJECTS SECTION -----------*/
@@ -577,13 +626,14 @@ h5 {
 
   .title-card {
     width: 40%;
-    margin: 0 30% 7% 28%;
+    margin: 3% 30% 8% 28%;
     padding: 3%;
   } 
 
   .project-screenshot img{
     box-shadow: 0px 0px #d07676d3; 
     margin: 0 10%;
+    margin-bottom: 0%;
   }
 }
 
@@ -603,8 +653,8 @@ h5 {
 }
 
 @media only screen and (max-width: 768px) {
-  .color-block-2 {
-    display: none;
+  .color-block-2 img{
+    width: 100%;
   }
 }
 
@@ -612,12 +662,12 @@ h5 {
 .color-block-3 {
   position: absolute;
   top: 42%;
-  left: -40%;
+  left: -30%;
   transform: rotate(7deg);
   z-index: 1;
 }
 
-.green-blob-3 img {
+.color-block-3 img {
  width: 80%; 
  height: auto;
 }
@@ -632,10 +682,7 @@ h5 {
 
 @media only screen and (max-width: 768px) {
   .color-block-4 {
-    position: absolute;
-    top: 0%;
-    left: 18%;
-    transform: rotate(80deg);
+    display: none;
   }
 }
 
@@ -722,7 +769,7 @@ form {
     width: 100%;
   }  
 } 
-/* ------- shape: green blob 6 ------ */
+/* ------- shape: green blob 5 ------ */
 .color-block-5 {
   position: absolute;
   top: 240%;
@@ -751,8 +798,14 @@ form {
 }
 
 @media only screen and (max-width: 768px){
+  .green-blob-5 img {
+    width: auto;
+  }
+  
   .color-block-5 {
-    display: none;
+   transform: rotate(180deg);
+   top: 200%;
+   left: -80%;
   }
 
   .contact-section {
