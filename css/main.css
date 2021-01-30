@@ -136,7 +136,7 @@ h2 {
 
 @media only screen and (min-width: 1366px) {
   h2 {
-    font-size: 3em;
+    font-size: 4.5em;
   }
 }
 
@@ -309,6 +309,10 @@ nav ul li a:active {
   }
 } 
 /* ----------- Hero Area ----------- */
+.hero-section {
+  display: flex;
+}
+
 .welcome {
   width: 95%;
   display: inline-block;
@@ -377,7 +381,6 @@ h1 span:hover {
   }
 }
 /* ------- Social Media Icons ------ */
-
 .social-icons {
   width: 5%;
   display: inline-block;
@@ -401,6 +404,14 @@ ion-icon:hover,
 ion-icon:active {
   color:#D07676;
   transition: color 0.2s;
+}
+
+@media only screen and (min-width: 1366px) {
+  ion-icon {
+    color: #32915e;
+    font-size: 3em;
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -480,6 +491,13 @@ p {
   margin-top: 2%;
 }
 
+@media only screen and (min-width: 1366px) {
+  p {
+    font-size: 2.5em;
+    margin-top: 5%;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   p {
     margin-top: 3%;
@@ -544,8 +562,17 @@ p {
   transition: 0.2s;
 }
 
-.skills-text {
-  width: 90%;
+@media only screen and (min-width: 1366px) {
+  .coding li {
+    font-size: 3em;
+    letter-spacing: 2px;
+  }
+
+  .coding-skills, 
+  .coding-languages {
+  display: inline-block;
+  padding-right: 375px
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -690,6 +717,27 @@ h5 {
   transition: transform 0.3;
 }
 
+
+@media only screen and (min-width: 1366px) {
+  h4 {
+    font-size: 1.5em;
+  }
+
+  h5 {
+    font-size: 1.3em;
+    margin-top: 7%;
+   line-height: 1.6;
+  }
+  
+  .project-screenshot img{
+    border: 5px solid #fff;
+  }
+
+  .project-2 img {
+    border: 5px solid #4c6381;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   h4 a:link,
   h4 a:visited {
@@ -739,6 +787,18 @@ h5 {
   z-index: 1;
 }
 
+@media only screen and (min-width: 1366px) {
+  .color-block-2 img {
+    width: 180%;
+  }
+
+  .color-block-2 {
+    position: absolute;
+    top: -18%;
+    left: 45%;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .color-block-2 {
     top: -15%;
@@ -772,6 +832,31 @@ h5 {
   left: 3%;
   transform: rotate(-10deg);
   z-index: 1;
+}
+
+@media only screen and (min-width: 1366px) {
+  .color-block-3 {
+    position: absolute;
+    top: 25%;
+    left: -10%;
+    z-index: 1;
+    transform: rotate(90deg);
+  }
+  
+  .color-block-3 img {
+   width: 140%; 
+  }
+
+  .color-block-4 {
+    top: 85%;
+    left: 3%;
+    transform: rotate(-10deg);
+    z-index: 1;
+  }
+
+  .color-block-4 img {
+    width: 160%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -823,7 +908,7 @@ button {
 button:hover {
   color:antiquewhite;
   background-color: #D07676;
-  border: 2pnx solid #D07676;
+  border: 2px solid #D07676;
   transition: 0.2;
 }
 
@@ -833,6 +918,30 @@ form {
   float: left;
   position: relative;
   z-index: 3;
+}
+
+@media only screen and (min-width: 1366px) {
+  .contact-section {
+    margin-top: -10%;
+  }
+  
+  .contact-msg {
+    font-size: 1.5em;
+    margin-top: 0%;
+  }  
+
+  form {
+    width: 700px;
+  }
+
+  label,
+  button {
+    font-size: 1.5em;
+  }
+
+  button {
+    border-radius: 40px;
+  }
 }
 
 @media only screen and (max-width: 1024px){   .contact-msg {
@@ -870,6 +979,16 @@ form {
   left: 56%;
   z-index: 1;
 }
+
+@media only screen and (min-width: 1366px) {
+  .color-block-5 {
+    left: 57%;
+  }
+
+  .color-block-5 img{
+    width:150%
+  }
+} 
 
 @media only screen and (max-width: 1024px) {
   .color-block-5 {
