@@ -202,7 +202,7 @@
     z-index: 1;
   }
   
-  .green-blob-1 img {
+  .color-block-1 img {
    width: 80%; 
    height: auto;
   }
@@ -213,7 +213,7 @@
     left: -38%;
     }
   
-    .green-blob-1 img {
+    .color-block-1 img {
       width: auto; 
      }
   }
@@ -226,7 +226,7 @@
       transform: rotate(0deg);
     }
     
-    .green-blob-1 img {
+    .color-block-1 img {
      width: 70%; 
      height: auto;
     }
@@ -442,15 +442,19 @@
   }
   
   /*------------ ABOUT SECTION -----------*/
-  
+  .about-section {
+    display: flex;
+    align-items: center;
+  }
+
   .profile-pic img {
     border-radius: 5%;
     box-shadow: 35px 35px #d07676d3;
     display:inline-block;
     float: left;
-    margin: 8%;
+    margin: 5% 8%;
     height: auto;
-    width: 35%;
+    width: 33%;
     position: relative;
     z-index: 3;
   }
@@ -485,6 +489,9 @@
   }
   
   @media only screen and (max-width: 1024px) {
+    .profile-pic img {
+      margin-top: 10%;
+    }
     p {
       margin-top: 3%;
       font-size: 1.5em;
@@ -529,11 +536,11 @@
   /*------------ SKILLS SECTION -----------*/
   .coding-skills, 
   .coding-languages {
-    display: inline-block;
+    display: inline-flex;
     float: left;
-    padding: 0 220px 5% 0;
+    padding-right: 250px;
   }
-  
+
   .coding li {
     font-size: 2em;
     font-weight: bold;
@@ -571,7 +578,7 @@
   
     .coding-skills, 
     .coding-languages {
-      padding-right: 150px;
+      padding-right: 120px;
       padding-bottom: 5%;
     } 
   }
@@ -588,7 +595,7 @@
     } 
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 580px) {
     .coding li{
       font-size: 1.3em;
     }
@@ -871,6 +878,7 @@
     margin-top: -8%;
     position: relative;
     z-index: 3;
+    margin-left: 3%;
   }
   
   .contact-msg {
@@ -908,7 +916,7 @@
   @media only screen and (min-width: 1366px) {
     .contact-section {
       margin-top: -10%;
-      margin-left: 3%;
+
     }
     
     .contact-msg {
@@ -983,7 +991,7 @@
     .color-block-5 {
       position: absolute;
       top: 230%;
-      left: 53%;
+      left: 50%;
     }
   }
   
