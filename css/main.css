@@ -798,7 +798,7 @@ h5 {
 .color-block-3 {
   position: absolute;
   top: 42%;
-  left: -30%;
+  left: -10%;
   transform: rotate(7deg);
   z-index: 1;
 }
@@ -826,7 +826,7 @@ h5 {
   }
   
   .color-block-3 img {
-   width: 140%; 
+   width: 120%; 
   }
 
   .color-block-4 {
@@ -868,6 +868,7 @@ textarea {
 }
 
 .contact-section {
+  margin-top: -8%;
   position: relative;
   z-index: 3;
 }
@@ -962,9 +963,10 @@ form {
 /* ------- shape: green blob 5 ------ */
 .color-block-5 {
   position: absolute;
-  top: 240%;
-  left: 56%;
+  top: 280%;
+  left: 66%;
   z-index: 1;
+ 
 }
 
 @media only screen and (min-width: 1366px) {
@@ -981,30 +983,18 @@ form {
   .color-block-5 {
     position: absolute;
     top: 230%;
-    left: 35%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .green-blob-5 img {
-    width: 120%;
-  }
-
-  .color-block-5 {
-    position: absolute;
-    top: 250%;
-    left: 35%;
+    left: 53%;
   }
 }
 
 @media only screen and (max-width: 768px){
-  .green-blob-5 img {
-    width: auto;
+  .color-block-5 img{
+    width:100%
   }
   
   .color-block-5 {
    transform: rotate(180deg);
-   top: 200%;
+   top: 305%;
    left: -80%;
   }
 
