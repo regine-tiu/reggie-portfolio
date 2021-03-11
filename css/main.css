@@ -11,1187 +11,1196 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/* ---------- G E N E R A L  S T Y L E S  ----------- */
-html {
-  font-size: 16px;
-  text-decoration: none;
-}
-
-body, 
-header{
-  flex-flow: column;
-  width: 100%;
-}
-
-body {
-  background-color: #ffe263;
-  color: #4c6381;
-  font-family: ivypresto-display, serif;
-  font-size: 1em;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.row {
-  min-width: 100%;
-  position: relative;
-}
-
-section {
-  margin-bottom: 7%;
-}
-
-h2 {
-  color: #D07676;
-  font-size: 3em;
-  margin: 0.5em 0;
-  text-decoration: underline solid #D07676 2px;
-  text-underline-offset: 4px;
-  width: 100%;
-  position: relative;
-  z-index: 3;
-}
-
-.color-block {
-  opacity: 0.9;
-}
-
-@media only screen and (max-width: 1024px) {
-  h2 {
-    font-size: 2.5em;
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
   }
-}
-
-@media only screen and (max-width: 768px) {
-   .skills-title {
-    margin-left: 0%;
-  }  
-}
-
-@media only screen and (max-width: 480px) {
-  h2 {
-    font-size: 2em;
+  
+  /*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
   }
-}
-
-/* ---------- S E C T I O N S ----------- */
-
-/*------------ HERO SECTION -----------*/
-/* ------------ Header ------------ */
-.rb-logo {
-  display: inline-block;
-}
-
-h6 {
-  font-size: 2em;
-  font-weight: 700;
-  margin: 30px 0 0 30px;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1pt #4c6381;
-}
-
-@media only screen and (min-width: 1366px) {
-  h6 {
-    font-size: 2.3em;
-    letter-spacing: 1px;
-    margin: 50px 0 0 50px;
-    -webkit-text-stroke: 1.5pt #4c6381;
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
   }
-}
-
-@media only screen and (max-width: 1024px) {
-  h6 {
-    font-size: 1.5em;
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
   }
-}
-
-@media only screen and (max-width: 480px) {
-  .rb-logo {
-    display: flex;
+  
+  /*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+  
+  /* ---------- G E N E R A L  S T Y L E S  ----------- */
+  html {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  body, 
+  header{
+    flex-flow: column;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #ffe263;
+    color: #4c6381;
+    font-family: ivypresto-display, serif;
+    font-size: 1em;
     justify-content: center;
+    align-items: center;
+    display: flex;
   }
-
+  
+  .row {
+    min-width: 100%;
+    position: relative;
+  }
+  
+  section {
+    margin-bottom: 7%;
+  }
+  
+  h2 {
+    color: #D07676;
+    font-size: 3em;
+    margin: 0.5em 0;
+    text-decoration: underline solid #D07676 2px;
+    text-underline-offset: 4px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .color-block {
+    opacity: 0.9;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    h2 {
+      font-size: 2.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+     .skills-title {
+      margin-left: 0%;
+    }  
+  }
+  
+  @media only screen and (max-width: 480px) {
+    h2 {
+      font-size: 2em;
+    }
+  }
+  
+  /* ---------- S E C T I O N S ----------- */
+  
+  /*------------ HERO SECTION -----------*/
+  /* ------------ Header ------------ */
+  .rb-logo {
+    display: inline-block;
+  }
+  
   h6 {
-    margin: 30px 0 0 0;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 30px 0 0 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1pt #4c6381;
   }
-}
-
-/* ------- shape: green blob 1 ------- */
-.color-block-1 {
-  position: absolute;
-  top: 32%;
-  left: -30%;
-  transform: rotate(7deg);
-  z-index: 1;
-}
-
-.green-blob-1 img {
- width: 80%; 
- height: auto;
-}
-
-@media only screen and (min-width: 1366px) {
-  .color-block-1 {
-  top: 30%;
-  left: -38%;
+  
+  @media only screen and (min-width: 1366px) {
+    h6 {
+      font-size: 2.3em;
+      letter-spacing: 1px;
+      margin: 50px 0 0 50px;
+      -webkit-text-stroke: 1.5pt #4c6381;
+    }
   }
-
-  .green-blob-1 img {
-    width: auto; 
-   }
-}
-
-@media only screen and (max-width: 768px) {
+  
+  @media only screen and (max-width: 1024px) {
+    h6 {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .rb-logo {
+      display: flex;
+      justify-content: center;
+    }
+  
+    h6 {
+      margin: 30px 0 0 0;
+    }
+  }
+  
+  /* ------- shape: green blob 1 ------- */
   .color-block-1 {
     position: absolute;
-    top: 20%;
-    left: -20%;
-    transform: rotate(0deg);
+    top: 32%;
+    left: -30%;
+    transform: rotate(7deg);
+    z-index: 1;
   }
   
-  .green-blob-1 img {
-   width: 70%; 
+  .color-block-1 img {
+   width: 80%; 
    height: auto;
   }
-}
-
-/* ----------- Navigation Bar ----------- */
-nav {
-  float: right; 
-  justify-content: flex-end;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin-top: 18px;
-}
-
-nav ul li a:link,
-nav ul li a:visited {
-  color: #32915e;
-  font-size: 1.3em;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-decoration: none;
-  margin-right: 23px;
-}
-
-nav ul li a:hover,
-nav ul li a:active {
-  color:#D07676;
-  transition: color 0.2s;
-}
-
-@media only screen and (min-width: 1366px) {
-  nav ul li {
-    margin-top: 35px;
+  
+  @media only screen and (min-width: 1366px) {
+    .color-block-1 {
+    top: 30%;
+    left: -38%;
+    }
+  
+    .color-block-1 img {
+      width: auto; 
+     }
   }
-
-  nav ul li a:link,
-  nav ul li a:visited {
-  font-size: 1.5em;
-  margin-right: 50px;
+  
+  @media only screen and (max-width: 768px) {
+    .color-block-1 {
+      position: absolute;
+      top: 20%;
+      left: -20%;
+      transform: rotate(0deg);
+    }
+    
+    .color-block-1 img {
+     width: 70%; 
+     height: auto;
+    }
   }
-}
-
-@media only screen and (max-width: 1024px) {
-  h6 {
-    font-size: 1.5em;
-  }
-
-  nav ul li a:link,
-  nav ul li a:visited {
-  font-size: 1em;
-  }
-}
-
-@media only screen and (max-width: 480px) {
+  
+  /* ----------- Navigation Bar ----------- */
   nav {
-    display: flex; 
-    width: 100%;
-    justify-content: space-around;
+    float: right; 
+    justify-content: flex-end;
   }
-}
-
-@media only screen and (max-width: 380px) {
+  
   nav ul li {
-    display: block;
-    text-align: center;
+    display: inline-block;
+    list-style: none;
+    margin-top: 18px;
   }
-
-  nav ul {
-    padding-inline-start: 20px;
+  
+  nav ul li a:link,
+  nav ul li a:visited {
+    color: #32915e;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 23px;
   }
-} 
-/* ----------- Hero Area ----------- */
-.hero-section {
-  display: flex;
-}
-
-.welcome {
-  width: 95%;
-  display: inline-block;
-  position: relative;
-  z-index: 3;
-}
-
-h1 {
-  font-size: 12em;
-  font-weight: 900;
-  line-height: 1.3;
-  margin: 0.4em 0;
-  margin-left: 0.2em;
-  position: relative;
-  z-index: 3;
-}
-
-h1 span {
-  text-decoration: underline solid #4c6381 3px;
-  text-underline-offset: 10px;
-  z-index: 3;
-}
-
-h1 span:hover {
-  color:#D07676;
-  transition: color 0.2s;
-  text-decoration: underline solid #D07676 3px;
-  z-index: 3;
-}
-
-@media only screen and (min-width: 1366px) {
+  
+  nav ul li a:hover,
+  nav ul li a:active {
+    color:#D07676;
+    transition: color 0.2s;
+  }
+  
+  @media only screen and (min-width: 1366px) {
+    nav ul li {
+      margin-top: 35px;
+    }
+  
+    nav ul li a:link,
+    nav ul li a:visited {
+    font-size: 1.5em;
+    margin-right: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    h6 {
+      font-size: 1.5em;
+    }
+  
+    nav ul li a:link,
+    nav ul li a:visited {
+    font-size: 1em;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    nav {
+      display: flex; 
+      width: 100%;
+      justify-content: space-around;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    nav ul li {
+      display: block;
+      text-align: center;
+    }
+  
+    nav ul {
+      padding-inline-start: 20px;
+    }
+  } 
+  /* ----------- Hero Area ----------- */
+  .hero-section {
+    display: flex;
+  }
+  
+  .welcome {
+    width: 95%;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+  }
+  
   h1 {
     font-size: 12em;
-    margin-left: 0em;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  h1 {
-    font-size: 10em;
     font-weight: 900;
     line-height: 1.3;
+    margin: 0.4em 0;
+    margin-left: 0.2em;
+    position: relative;
+    z-index: 3;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 8.5em;
-    line-height: 1.18;
-    margin-left: 13%;
-    width: 100%;
+  
+  h1 span {
+    text-decoration: underline solid #4c6381 3px;
+    text-underline-offset: 10px;
+    z-index: 3;
   }
-}
-
-@media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 6.5em;
-    margin-left: 10%;
+  
+  h1 span:hover {
+    color:#D07676;
+    transition: color 0.2s;
+    text-decoration: underline solid #D07676 3px;
+    z-index: 3;
   }
-}
-
-@media only screen and (max-width: 380px) {
-  h1 {
-    font-size: 5em;
-    margin-left: 10%;
+  
+  @media only screen and (min-width: 1366px) {
+    h1 {
+      font-size: 12em;
+      margin-left: 0em;
+    }
   }
-}
-/* ------- Social Media Icons ------ */
-.social-icons {
-  width: 5%;
-  display: inline-block;
-  float:right;
-  padding-top: 14%;
-  position: relative;
-  z-index: 3;
-}
-
-.social-icons ul {
-  list-style: none;
-}
-
-ion-icon {
-  color: #32915e;
-  font-size: 2.2em;
-  margin-top: 40px;
-}
-
-ion-icon:hover,
-ion-icon:active {
-  color:#D07676;
-  transition: color 0.2s;
-}
-
-
-@media only screen and (max-width: 1024px) {
-  .social-icons { 
-    padding-top: 13%;
-  } 
-
-  ion-icon {
-    color: #32915e;
-    font-size: 2em;
-    margin-top: 32px;
+  
+  @media only screen and (max-width: 1024px) {
+    h1 {
+      font-size: 10em;
+      font-weight: 900;
+      line-height: 1.3;
+    }
   }
-}
-
-@media only screen and (max-width: 768px) {
+  
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 8.5em;
+      line-height: 1.18;
+      margin-left: 13%;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 6.5em;
+      margin-left: 10%;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    h1 {
+      font-size: 5em;
+      margin-left: 10%;
+    }
+  }
+  /* ------- Social Media Icons ------ */
   .social-icons {
-    width: 75%;
-    margin: 0 12.5%;
-    padding-top: 7%;
+    width: 5%;
+    display: inline-block;
+    float:right;
+    padding-top: 14%;
+    position: relative;
+    z-index: 3;
   }
-
+  
   .social-icons ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding-inline-start: 0;
-  }  
-  
-  .social-icons ul li {
-    display: inline-block;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  ion-icon {
-    font-size: 1.9em;
-  }
-
-  .social-icons {
-    padding-top: 0%;
-  }
-}
-
-/*------------ ABOUT SECTION -----------*/
-
-.profile-pic img {
-  border-radius: 5%;
-  box-shadow: 35px 35px #d07676d3;
-  display:inline-block;
-  float: left;
-  margin: 8%;
-  height: auto;
-  width: 35%;
-  position: relative;
-  z-index: 3;
-}
-
-.profile-pic:hover {
-  transform: scale(1.003);
-  transition: 0.3;
-  position: relative;
-  z-index: 3;
-}
-
-.about-text {
-  display: inline-block;
-  float: left;
-  flex-flow: column;
-  width: 45%;
-  position: relative;
-  z-index: 3;
-}
-
-p {
-  font-size: 1.7em;
-  line-height: 1.4;
-  margin-top: 2%;
-}
-
-@media only screen and (min-width: 1366px) {
-  p {
-    font-size: 2em;
-    margin-top: 5%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  p {
-    margin-top: 3%;
-    font-size: 1.5em;
-  }
-
-  .about-text {
-    display: inline-block;
-    flex-flow: column;
-  } 
-}
-
-@media only screen and (max-width: 768px) {
-  .profile-pic img {
-    border-radius: 40px;
-    box-shadow: 15px 15px #d07676d3;
-    width: 50%;
-    margin: 0 25%;
-  }
-
-  .about-text {
-    display: block;
-    margin: 4% 15% 0 15%;
-    width: 70%;
-    text-align: justify;
-  }
-
-  .about-title {
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .profile-pic img {
-    display: none;
-  }
-
-  p {
-    font-size: 1.2em;
-  }
-}
-
-/*------------ SKILLS SECTION -----------*/
-.coding-skills, 
-.coding-languages {
-  display: inline-block;
-  float: left;
-  padding: 0 220px 5% 0;
-}
-
-.coding li {
-  font-size: 2em;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding-top: 10px;
-  position: relative;
-  z-index: 3;
-}
-
-.coding li:hover {
-  color:#D07676;
-  transition: 0.2s;
-}
-
- @media only screen and (min-width: 1366px) {
-  .coding li {
-    font-size: 2em;
-    letter-spacing: 2px;
-  }
-
-  .coding-skills, 
-  .coding-languages {
-    padding-right: 300px;
-  } 
-}
-
-@media only screen and (max-width: 1024px) {
-  .skills-section {
-    padding-left: 3%;
-  }
-  
-  .coding li {
-    font-size: 1.8em;
-  }
-
-  .coding-skills, 
-  .coding-languages {
-    padding-right: 150px;
-    padding-bottom: 5%;
-  } 
-}
-
-@media only screen and (max-width: 768px) {
-  .coding li {
-    font-size: 1.5em;
-  }
-
-  .coding-skills, 
-  .coding-languages {
-    padding-bottom: 10px;
-    padding-right: 50px;
-  } 
-}
-
-@media only screen and (max-width: 480px) {
-  .coding li{
-    font-size: 1.3em;
-  }
-
-  .coding-skills, 
-  .coding-languages {
-    padding-right: 0px;
-    display: block;
-    width: 100%;
-  } 
-  .skills-section {
-    text-align:center;
-    padding-left: 0;
-  }
-
-  .coding-skills ul li,
-  .coding-languages ul li {
     list-style: none;
   }
-
-  .coding-skills ul,
-  .coding-languages ul {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+  
+  ion-icon {
+    color: #32915e;
+    font-size: 2.2em;
+    margin-top: 40px;
   }
-}
+  
+  ion-icon:hover,
+  ion-icon:active {
+    color:#D07676;
+    transition: color 0.2s;
+  }
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .social-icons { 
+      padding-top: 13%;
+    } 
+  
+    ion-icon {
+      color: #32915e;
+      font-size: 2em;
+      margin-top: 32px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .social-icons {
+      width: 75%;
+      margin: 0 12.5%;
+      padding-top: 7%;
+    }
+  
+    .social-icons ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding-inline-start: 0;
+    }  
+    
+    .social-icons ul li {
+      display: inline-block;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    ion-icon {
+      font-size: 1.9em;
+    }
+  
+    .social-icons {
+      padding-top: 0%;
+    }
+  }
+  
+  /*------------ ABOUT SECTION -----------*/
+  .about-section {
+    display: flex;
+    align-items: center;
+  }
 
-/*------------ PROJECTS SECTION -----------*/
-.projects-title {
-  margin-left: 7%;
-}
+  .profile-pic img {
+    border-radius: 5%;
+    box-shadow: 35px 35px #d07676d3;
+    display:inline-block;
+    float: left;
+    margin: 5% 8%;
+    height: auto;
+    width: 33%;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .profile-pic:hover {
+    transform: scale(1.003);
+    transition: 0.3;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .about-text {
+    display: inline-block;
+    float: left;
+    flex-flow: column;
+    width: 45%;
+    position: relative;
+    z-index: 3;
+  }
+  
+  p {
+    font-size: 1.7em;
+    line-height: 1.4;
+    margin-top: 2%;
+  }
+  
+  @media only screen and (min-width: 1366px) {
+    p {
+      font-size: 2em;
+      margin-top: 5%;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .profile-pic img {
+      margin-top: 10%;
+    }
+    p {
+      margin-top: 3%;
+      font-size: 1.5em;
+    }
+  
+    .about-text {
+      display: inline-block;
+      flex-flow: column;
+    } 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .profile-pic img {
+      border-radius: 40px;
+      box-shadow: 15px 15px #d07676d3;
+      width: 50%;
+      margin: 0 25%;
+    }
+  
+    .about-text {
+      display: block;
+      margin: 4% 15% 0 15%;
+      width: 70%;
+      text-align: justify;
+    }
+  
+    .about-title {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .profile-pic img {
+      display: none;
+    }
+  
+    p {
+      font-size: 1.2em;
+    }
+  }
+  
+  /*------------ SKILLS SECTION -----------*/
+  .coding-skills, 
+  .coding-languages {
+    display: inline-flex;
+    float: left;
+    padding-right: 250px;
+  }
 
-h4 {
-  margin-block-start: 0%;
-  margin-block-end: 0%;
-}
-
-h4 a:link,
-h4 a:visited {
-  color:antiquewhite;
-  font-size: 2em;
-  font-weight: normal;
-  text-decoration: none;
-  margin: 0;
-}
-
-h4 a:hover,
-h4 a:active{
-  color:#D07676;
-  transition: color 0.2s;
-}
-
-h5 {
-  color: #fff;
-  font-size: 1em;
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  margin: 0;
-  margin-top: 5%;
-  text-align: center;
-}
-
-.project-item {
-  display: flex;
-  align-items: center;
-  margin: 5% 0 15% 0%;
-  position: relative;
-  z-index: 3;
-}
-
-.title-card {
-  background-color:#4c6381;
-  border-radius: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 7%;
-  padding: 3%;
-  text-align: center;
-  height: auto;
-  width: 13%;
-}
-
-.title-card:hover {
-  filter: grayscale(20%);
-  transform: scale(1.008);
-  transition: 0.3;
-}
-
-.project-screenshot img{
-  display: inline-block;
-  border: 3px solid #fff;
-  border-radius: 30px;   
-  box-shadow: 35px 35px #d07676d3; 
-  width: 80%;
-  margin-left:10%
-}
-
-.project-2 img {
-  border: 3px solid #4c6381;
-}
-
-.project-screenshot img:hover{
-  filter: grayscale(30%);
-  transform: scale(1.004);
-  transition: transform 0.3;
-}
-
-
-@media only screen and (min-width: 1366px) {
- 
+  .coding li {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .coding li:hover {
+    color:#D07676;
+    transition: 0.2s;
+  }
+  
+   @media only screen and (min-width: 1366px) {
+    .coding li {
+      font-size: 2em;
+      letter-spacing: 2px;
+    }
+  
+    .coding-skills, 
+    .coding-languages {
+      padding-right: 300px;
+    } 
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .skills-section {
+      padding-left: 3%;
+    }
+    
+    .coding li {
+      font-size: 1.8em;
+    }
+  
+    .coding-skills, 
+    .coding-languages {
+      padding-right: 120px;
+      padding-bottom: 5%;
+    } 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .coding li {
+      font-size: 1.5em;
+    }
+  
+    .coding-skills, 
+    .coding-languages {
+      padding-bottom: 10px;
+      padding-right: 50px;
+    } 
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .coding li{
+      font-size: 1.3em;
+    }
+  
+    .coding-skills, 
+    .coding-languages {
+      padding-right: 0px;
+      display: block;
+      width: 100%;
+    } 
+    .skills-section {
+      text-align:center;
+      padding-left: 0;
+    }
+  
+    .coding-skills ul li,
+    .coding-languages ul li {
+      list-style: none;
+    }
+  
+    .coding-skills ul,
+    .coding-languages ul {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
+    }
+  }
+  
+  /*------------ PROJECTS SECTION -----------*/
+  .projects-title {
+    margin-left: 7%;
+  }
+  
+  h4 {
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+  }
+  
+  h4 a:link,
+  h4 a:visited {
+    color:antiquewhite;
+    font-size: 2em;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+  h4 a:hover,
+  h4 a:active{
+    color:#D07676;
+    transition: color 0.2s;
+  }
+  
   h5 {
+    color: #fff;
     font-size: 1em;
-    margin-top: 7%;
-   line-height: 1.6;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .project-item {
+    display: flex;
+    align-items: center;
+    margin: 5% 0 15% 0%;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .title-card {
+    background-color:#4c6381;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7%;
+    padding: 3%;
+    text-align: center;
+    height: auto;
+    width: 13%;
+  }
+  
+  .title-card:hover {
+    filter: grayscale(20%);
+    transform: scale(1.008);
+    transition: 0.3;
   }
   
   .project-screenshot img{
-    border: 4px solid #fff;
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 30px;   
+    box-shadow: 35px 35px #d07676d3; 
+    width: 80%;
+    margin-left:10%
   }
-
+  
   .project-2 img {
-    border: 4px solid #4c6381;
+    border: 3px solid #4c6381;
   }
-}
-
-@media only screen and (max-width: 1024px) {
-  h4 a:link,
-  h4 a:visited {
-    font-size: 1.5em;
+  
+  .project-screenshot img:hover{
+    filter: grayscale(30%);
+    transform: scale(1.004);
+    transition: transform 0.3;
   }
-
-  h5 {
-    font-size: 0.8em;
-    margin-top: 7%;
+  
+  
+  @media only screen and (min-width: 1366px) {
+   
+    h5 {
+      font-size: 1em;
+      margin-top: 7%;
+     line-height: 1.6;
+    }
+    
+    .project-screenshot img{
+      border: 4px solid #fff;
+    }
+  
+    .project-2 img {
+      border: 4px solid #4c6381;
+    }
   }
-}
-
-@media only screen and (max-width: 768px) {
-  .project-item {
-    display: block;
+  
+  @media only screen and (max-width: 1024px) {
+    h4 a:link,
+    h4 a:visited {
+      font-size: 1.5em;
+    }
+  
+    h5 {
+      font-size: 0.8em;
+      margin-top: 7%;
+    }
   }
-
-  .title-card {
-    width: 40%;
-    margin: 3% 30% 8% 28%;
-    padding: 3%;
-  } 
-
-  .project-screenshot img{
-    box-shadow: 0px 0px #d07676d3; 
-    margin: 0 10%;
-    margin-bottom: 0%;
+  
+  @media only screen and (max-width: 768px) {
+    .project-item {
+      display: block;
+    }
+  
+    .title-card {
+      width: 40%;
+      margin: 3% 30% 8% 28%;
+      padding: 3%;
+    } 
+  
+    .project-screenshot img{
+      box-shadow: 0px 0px #d07676d3; 
+      margin: 0 10%;
+      margin-bottom: 0%;
+    }
   }
-}
-
-@media only screen and (max-width: 480px) {
-  h4 a:link,
-  h4 a:visited {
-    font-size: 1.2em;
+  
+  @media only screen and (max-width: 480px) {
+    h4 a:link,
+    h4 a:visited {
+      font-size: 1.2em;
+    }
+  
+    h5 {
+      font-size: 0.7em;
+    }
   }
-
-  h5 {
-    font-size: 0.7em;
-  }
-}
-
-/* ------- green blob 2 ------- */
-.color-block-2 {
-  position: absolute;
-  top: -18%;
-  left: 55%;
-  z-index: 1;
-}
-
-@media only screen and (min-width: 1366px) {
-  .color-block-2 img {
-    width: 180%;
-  }
-
+  
+  /* ------- green blob 2 ------- */
   .color-block-2 {
     position: absolute;
     top: -18%;
-    left: 45%;
+    left: 55%;
+    z-index: 1;
   }
-}
-
-@media only screen and (max-width: 1024px) {
-  .color-block-2 {
-    top: -15%;
-    left: 38%;
+  
+  @media only screen and (min-width: 1366px) {
+    .color-block-2 img {
+      width: 180%;
+    }
+  
+    .color-block-2 {
+      position: absolute;
+      top: -18%;
+      left: 45%;
+    }
   }
-}
-
-@media only screen and (max-width: 768px) {
-  .color-block-2 img{
-    width: 100%;
+  
+  @media only screen and (max-width: 1024px) {
+    .color-block-2 {
+      top: -15%;
+      left: 38%;
+    }
   }
-}
-
-/* ------- shape: green blob 3 - 5 ------ */
-.color-block-3 {
-  position: absolute;
-  top: 42%;
-  left: -10%;
-  transform: rotate(7deg);
-  z-index: 1;
-}
-
-.color-block-3 img {
- width: 80%; 
- height: auto;
-}
-
-.color-block-4 {
-  position: absolute;
-  top: 85%;
-  left: 3%;
-  transform: rotate(-10deg);
-  z-index: 1;
-}
-
-@media only screen and (min-width: 1366px) {
+  
+  @media only screen and (max-width: 768px) {
+    .color-block-2 img{
+      width: 100%;
+    }
+  }
+  
+  /* ------- shape: green blob 3 - 5 ------ */
   .color-block-3 {
     position: absolute;
-    top: 25%;
+    top: 42%;
     left: -10%;
+    transform: rotate(7deg);
     z-index: 1;
-    transform: rotate(90deg);
   }
   
   .color-block-3 img {
-   width: 120%; 
+   width: 80%; 
+   height: auto;
   }
-
+  
   .color-block-4 {
+    position: absolute;
     top: 85%;
     left: 3%;
     transform: rotate(-10deg);
     z-index: 1;
   }
-
-  .color-block-4 img {
-    width: 160%;
+  
+  @media only screen and (min-width: 1366px) {
+    .color-block-3 {
+      position: absolute;
+      top: 25%;
+      left: -10%;
+      z-index: 1;
+      transform: rotate(90deg);
+    }
+    
+    .color-block-3 img {
+     width: 120%; 
+    }
+  
+    .color-block-4 {
+      top: 85%;
+      left: 3%;
+      transform: rotate(-10deg);
+      z-index: 1;
+    }
+  
+    .color-block-4 img {
+      width: 160%;
+    }
   }
-}
-
-@media only screen and (max-width: 768px) {
-  .color-block-4 {
-    display: none;
+  
+  @media only screen and (max-width: 768px) {
+    .color-block-4 {
+      display: none;
+    }
   }
-}
-
-/*------------ CONTACT SECTION -----------*/
-label,
-input,
-select,
-textarea  {
-  display: block;
-  margin-top: 1%;
-  border-radius: 7px;
-  padding: 2% 0;
-  width: 100%;
-  font-weight: 500;
-}
-
-input,
-select,
-textarea {
-  background-color: #fff;
-  border: 2px solid #4c6381;
-}
-
-.contact-section {
-  margin-top: -8%;
-  position: relative;
-  z-index: 3;
-}
-
-.contact-msg {
-  color:#4c6381;
-  font-size: 1.3em;
-  margin-bottom: 3%;
-  text-align: left;
-}
-
-button {
-  background-color:transparent;
-  border-radius: 20px;
-  border: 2px solid #4c6381;
-  color:#4c6381;
-  font-weight: 600;
-  margin-top: 5%;
-  padding: 2.3% 5%;
-}
-
-button:hover {
-  color:antiquewhite;
-  background-color: #D07676;
-  border: 2px solid #D07676;
-  transition: 0.2;
-}
-
-form {
-  width: 500px;
-  display: inline-block;
-  float: left;
-  position: relative;
-  z-index: 3;
-}
-
-@media only screen and (min-width: 1366px) {
+  
+  /*------------ CONTACT SECTION -----------*/
+  label,
+  input,
+  select,
+  textarea  {
+    display: block;
+    margin-top: 1%;
+    border-radius: 7px;
+    padding: 2% 0;
+    width: 100%;
+    font-weight: 500;
+  }
+  
+  input,
+  select,
+  textarea {
+    background-color: #fff;
+    border: 2px solid #4c6381;
+  }
+  
   .contact-section {
-    margin-top: -10%;
+    margin-top: -8%;
+    position: relative;
+    z-index: 3;
     margin-left: 3%;
   }
   
   .contact-msg {
+    color:#4c6381;
     font-size: 1.3em;
-    margin-top: 0%;
-  }  
-
-  form {
-    width: 700px;
+    margin-bottom: 3%;
+    text-align: left;
   }
-
-  label,
+  
   button {
-    font-size: 1.3em;
-
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid #4c6381;
+    color:#4c6381;
+    font-weight: 600;
+    margin-top: 5%;
+    padding: 2.3% 5%;
   }
-
-  button {
-    border-radius: 40px;
-  }
-}
-
-@media only screen and (max-width: 1024px){   
-  .contact-msg {
-    font-size: 1.2em;
-    margin-top: -1%;
+  
+  button:hover {
+    color:antiquewhite;
+    background-color: #D07676;
+    border: 2px solid #D07676;
+    transition: 0.2;
   }
   
   form {
-    width: 400px;
+    width: 500px;
     display: inline-block;
     float: left;
     position: relative;
     z-index: 3;
   }
-}
+  
+  @media only screen and (min-width: 1366px) {
+    .contact-section {
+      margin-top: -10%;
 
-@media only screen and (max-width: 768px){
-  .contact-section {
-    text-align: center;
-    padding-left:0;
     }
-
-  .contact-msg {
-    font-size: 1em;
-  }
-
-  form {
-    width: 100%;
-  }  
-} 
-/* ------- shape: green blob 5 ------ */
-.color-block-5 {
-  position: absolute;
-  top: 280%;
-  left: 66%;
-  z-index: 1;
- 
-}
-
-@media only screen and (min-width: 1366px) {
-  .color-block-5 {
-    left: 57%;
-  }
-
-  .color-block-5 img{
-    width:150%
-  }
-} 
-
-@media only screen and (max-width: 1024px) {
-  .color-block-5 {
-    position: absolute;
-    top: 230%;
-    left: 53%;
-  }
-}
-
-@media only screen and (max-width: 768px){
-  .color-block-5 img{
-    width:100%
+    
+    .contact-msg {
+      font-size: 1.3em;
+      margin-top: 0%;
+    }  
+  
+    form {
+      width: 700px;
+    }
+  
+    label,
+    button {
+      font-size: 1.3em;
+  
+    }
+  
+    button {
+      border-radius: 40px;
+    }
   }
   
-  .color-block-5 {
-   transform: rotate(180deg);
-   top: 305%;
-   left: -80%;
-  }
-
-  .contact-section {
-    margin-top: -10%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .contact-msg {
-    text-align: center;
-  }
-
-  form {
-    width: 95%;
-    margin: 0 2.5%;
-  }  
-}
-
-@media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 1024px){   
+    .contact-msg {
+      font-size: 1.2em;
+      margin-top: -1%;
+    }
+    
     form {
-    width: 90%;
-    margin: 0 5%;
-  }  
-}
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
-}
-
-.clearfix::after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+      width: 400px;
+      display: inline-block;
+      float: left;
+      position: relative;
+      z-index: 3;
+    }
   }
-
-  a,
-  a:visited {
-    text-decoration: underline;
+  
+  @media only screen and (max-width: 768px){
+    .contact-section {
+      text-align: center;
+      padding-left:0;
+      }
+  
+    .contact-msg {
+      font-size: 1em;
+    }
+  
+    form {
+      width: 100%;
+    }  
+  } 
+  /* ------- shape: green blob 5 ------ */
+  .color-block-5 {
+    position: absolute;
+    top: 280%;
+    left: 66%;
+    z-index: 1;
+   
   }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
+  
+  @media only screen and (min-width: 1366px) {
+    .color-block-5 {
+      left: 57%;
+    }
+  
+    .color-block-5 img{
+      width:150%
+    }
+  } 
+  
+  @media only screen and (max-width: 1024px) {
+    .color-block-5 {
+      position: absolute;
+      top: 230%;
+      left: 50%;
+    }
   }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
+  
+  @media only screen and (max-width: 768px){
+    .color-block-5 img{
+      width:100%
+    }
+    
+    .color-block-5 {
+     transform: rotate(180deg);
+     top: 305%;
+     left: -80%;
+    }
+  
+    .contact-section {
+      margin-top: -10%;
+    }
   }
-
+  
+  @media only screen and (max-width: 480px) {
+    .contact-msg {
+      text-align: center;
+    }
+  
+    form {
+      width: 95%;
+      margin: 0 2.5%;
+    }  
+  }
+  
+  @media only screen and (max-width: 400px) {
+      form {
+      width: 90%;
+      margin: 0 5%;
+    }  
+  }
+  
+  /* ==========================================================================
+     Helper classes
+     ========================================================================== */
+  
   /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
+   * Hide visually and from screen readers
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
+  
+  .hidden,
+  [hidden] {
+    display: none !important;
   }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
+  
   /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   * Hide only visually, but have it available for screen readers:
+   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   *
+   * 1. For long content, line feeds are not interpreted as spaces and small width
+   *    causes content to wrap 1 word per line:
+   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
    */
-  thead {
-    display: table-header-group;
+  
+  .sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
   }
-
-  tr,
-  img {
-    page-break-inside: avoid;
+  
+  /*
+   * Extends the .sr-only class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
+  
+  .sr-only.focusable:active,
+  .sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
   }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
+  
+  /*
+   * Hide visually and from screen readers, but maintain layout
+   */
+  
+  .invisible {
+    visibility: hidden;
   }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
+  
+  /*
+   * Clearfix: contain floats
+   *
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    `contenteditable` attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that receive the `clearfix` class.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+  
+  .clearfix::before,
+  .clearfix::after {
+    content: " ";
+    display: table;
   }
-}
+  
+  .clearfix::after {
+    clear: both;
+  }
+  
+  /* ==========================================================================
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+  
+  @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
+  
+  @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
+  
+  /* ==========================================================================
+     Print styles.
+     Inlined to avoid the additional HTTP request:
+     https://www.phpied.com/delay-loading-your-print-css/
+     ========================================================================== */
+  
+  @media print {
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
+  
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
+  
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
+  
+    pre {
+      white-space: pre-wrap !important;
+    }
+  
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+  
+    /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+      display: table-header-group;
+    }
+  
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+  }
+  
 
