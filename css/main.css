@@ -266,7 +266,7 @@
   
   nav ul li a:link,
   nav ul li a:visited {
-    color: #32915e;
+    color:#d67070;
     font-size: 1.3em;
     font-weight: bold;
     letter-spacing: 1px;
@@ -276,8 +276,9 @@
   
   nav ul li a:hover,
   nav ul li a:active {
-    color:#d67070;
-    transition: color 0.2s;
+    color: #fff;
+    border-bottom: 1.5px solid #fff;
+    transition: 0.3s;
   }
   
   @media only screen and (min-width: 1366px) {
@@ -322,15 +323,17 @@
     }
   } 
   /* ----------- Hero Area ----------- */
-  .hero-section {
-    display: flex;
+  section {
+    width: 100%;
   }
   
   .welcome {
-    width: 95%;
-    display: inline-block;
+    width: 78%;
+    display: inline-flex;
+    align-items: flex-start;
     position: relative;
     z-index: 3;
+    margin-left: 10%;
   }
   
   h1 {
@@ -396,27 +399,27 @@
   /* ------- Social Media Icons ------ */
   .social-icons {
     width: 5%;
-    display: inline-block;
-    float:right;
-    padding-top: 14%;
+    margin-right: 7%;
     position: relative;
     z-index: 3;
   }
   
   .social-icons ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
   }
   
   ion-icon {
     color: #32915e;
     font-size: 2.3em;
-    margin-top: 38px;
+    margin: 25px 0;
   }
   
   ion-icon:hover,
   ion-icon:active {
-    color:#d67070;
-    transition: color 0.2s;
+    color:#fff;
+    transition: color 0.3s;
   }
   
   
