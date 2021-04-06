@@ -548,114 +548,15 @@
     }
   }
   
-  /*------------ SKILLS SECTION -----------*/
-  .skills-section {
-    width: 86%;
-    margin: 7% 0;
-  }
-
-  h3 {
-    color: #4c6381;
-    font-size: 1.5em;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin-top: 2%;
-    text-decoration: underline;
-    text-align: center;
-  }
-
-  .skills-col {
-    display: inline-flex;
-    justify-content: space-around;
-    width: 50%;
-  }
-
-  .coding li {
-    font-size: 2em;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding-top: 10px;
-    position: relative;
-    z-index: 3;
-  }
-  
-  .coding li:hover {
-    color:#fff;
-    transition: 0.2s;
-  }
-  
-   @media only screen and (min-width: 1366px) {
-    .coding li {
-      font-size: 2em;
-      letter-spacing: 2px;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    
-    
-    .coding li {
-      font-size: 1.8em;
-    }
-  
-    .coding-skills, 
-    .coding-languages {
-      padding-right: 120px;
-      padding-bottom: 5%;
-    } 
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .coding li {
-      font-size: 1.5em;
-    }
-  
-    .coding-skills, 
-    .coding-languages {
-      padding-bottom: 10px;
-      padding-right: 50px;
-    } 
-  }
-  
-  @media only screen and (max-width: 580px) {
-    .coding li{
-      font-size: 1.3em;
-    }
-  
-    .coding-skills, 
-    .coding-languages {
-      padding-right: 0px;
-      display: block;
-      width: 100%;
-    } 
-    .skills-section {
-      text-align:center;
-      padding-left: 0;
-    }
-  
-    .coding-skills ul li,
-    .coding-languages ul li {
-      list-style: none;
-    }
-  
-    .coding-skills ul,
-    .coding-languages ul {
-      margin-block-start: 0;
-      margin-block-end: 0;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      padding-inline-start: 0px;
-    }
-  }
-  
   /*------------ PROJECTS SECTION -----------*/
-  .projects-title {
-    margin-left: 7%;
+  .project-section {
+    width: 88%;
+    margin: 0 6%;
   }
   
   h4 {
-    margin-block-start: 0%;
-    margin-block-end: 0%;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
   
   h4 a:link,
@@ -688,8 +589,7 @@
   .project-item {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 5% 0 15% 0%;
+    margin: 5% 0 10% 0%;
     position: relative;
     z-index: 3;
   }
@@ -697,15 +597,10 @@
   .title-card {
     background-color:#4c6381;
     border-radius: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 7%;
     padding: 3%;
     text-align: center;
-    height: auto;
-    width: 20%;
+    margin-left: 5%;
+    width: 15%;
   }
   
   .title-card:hover {
@@ -715,16 +610,19 @@
   }
   
   .project-screenshot img{
-    display: inline-block;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     border: 3px solid #fff;
     border-radius: 30px;   
     box-shadow: 35px 35px #d67070d3; 
-    width: 80%;
-    margin-left:10%
+    width: 85%;
+    margin-left: 10%;
   }
   
   .project-2 img {
     border: 3px solid #4c6381;
+    margin-left: 11.5%;
   }
   
   .project-screenshot img:hover{
@@ -789,6 +687,105 @@
   
     h5 {
       font-size: 0.7em;
+    }
+  }
+
+  /*------------ SKILLS SECTION -----------*/
+  .skills-section {
+    width: 88%;
+    margin: 0 6%;
+  }
+
+  h3 {
+    color: #d67070;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: -2%;
+    margin-bottom: 3%;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .skills-col {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 45%;
+  }
+
+  .coding li {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .coding li:hover {
+    color:#fff;
+    transition: 0.2s;
+  }
+  
+   @media only screen and (min-width: 1366px) {
+    .coding li {
+      font-size: 2em;
+      letter-spacing: 2px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .coding li {
+      font-size: 1.8em;
+    }
+  
+    .coding-skills, 
+    .coding-languages {
+      padding-right: 120px;
+      padding-bottom: 5%;
+    } 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .coding li {
+      font-size: 1.5em;
+    }
+  
+    .coding-skills, 
+    .coding-languages {
+      padding-bottom: 10px;
+      padding-right: 50px;
+    } 
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .coding li{
+      font-size: 1.3em;
+    }
+  
+    .coding-skills, 
+    .coding-languages {
+      padding-right: 0px;
+      display: block;
+      width: 100%;
+    } 
+    .skills-section {
+      text-align:center;
+      padding-left: 0;
+    }
+  
+    .coding-skills ul li,
+    .coding-languages ul li {
+      list-style: none;
+    }
+  
+    .coding-skills ul,
+    .coding-languages ul {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
     }
   }
   
