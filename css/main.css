@@ -470,14 +470,17 @@
     align-items: center;
   }
 
+   .profile-pic {
+     width: 45%;
+     margin-left: 5%;
+   }
+
   .profile-pic img {
     border-radius: 5%;
     box-shadow: 35px 35px #d67070d3;
-    display:inline-block;
-    float: left;
-    margin: 5% 8%;
+    margin: 8%;
     height: auto;
-    width: 33%;
+    width: 75%;
     position: relative;
     z-index: 3;
   }
@@ -494,6 +497,7 @@
     float: left;
     flex-flow: column;
     width: 45%;
+    margin-right: 5%;
     position: relative;
     z-index: 3;
   }
