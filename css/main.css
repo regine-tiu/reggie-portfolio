@@ -893,6 +893,8 @@
   .contact-section {
     position: relative;
     z-index: 3;
+    width: 93%;
+    margin-left: 7%;
   }
   
   .contact-msg {
@@ -933,6 +935,11 @@
     justify-content: flex-start;
     position: relative;
     z-index: 3;
+  }
+
+  form p {
+    font-size: 7em;
+    text-align: center;
   }
   
   @media only screen and (min-width: 1366px) {
