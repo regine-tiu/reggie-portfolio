@@ -147,7 +147,6 @@
   
   @media only screen and (max-width: 768px) {
   
-     
   }
   
   @media only screen and (max-width: 480px) {
@@ -168,9 +167,8 @@
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-    width: 45%;
-    margin-left: 5%;
-    
+    width: 10%;
+    margin-left: 5%; 
   }
 
   .rb-logo a {
@@ -195,9 +193,7 @@
   }
   
   @media only screen and (max-width: 1024px) {
-    h6 {
-      font-size: 1.5em;
-    }
+   
   }
   
   @media only screen and (max-width: 480px) {
@@ -255,7 +251,7 @@
     display: inline-flex; 
     align-items: center;
     justify-content: flex-end;
-    width: 45%;
+    width: 80%;
     margin-right: 5%;
   }
 
@@ -267,7 +263,7 @@
   nav ul li a:link,
   nav ul li a:visited {
     color:#d67070;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: bold;
     letter-spacing: 1px;
     text-decoration: none;
@@ -293,14 +289,10 @@
     }
   }
   
-  @media only screen and (max-width: 1024px) {
-    h6 {
-      font-size: 1.5em;
-    }
-  
+  @media only screen and (max-width: 768px) {
     nav ul li a:link,
     nav ul li a:visited {
-    font-size: 1em;
+    font-size: 1.3em;
     }
   }
   
@@ -324,7 +316,7 @@
   } 
   /* ----------- Hero Area ----------- */
   .welcome {
-    width: 78%;
+    width: 77%;
     display: inline-flex;
     align-items: flex-start;
     position: relative;
@@ -337,7 +329,6 @@
     font-weight: 900;
     line-height: 1.3;
     margin: 0.4em 0;
-    margin-left: 0.2em;
     position: relative;
     z-index: 3;
   }
@@ -358,7 +349,6 @@
   @media only screen and (min-width: 1366px) {
     h1 {
       font-size: 12em;
-      margin-left: 0em;
     }
   }
   
@@ -374,8 +364,6 @@
     h1 {
       font-size: 8.5em;
       line-height: 1.18;
-      margin-left: 11%;
-      width: 100%;
     }
   }
   
@@ -395,7 +383,7 @@
   /* ------- Social Media Icons ------ */
   .social-icons {
     width: 5%;
-    margin-right: 7%;
+    margin-right: 8%;
     position: relative;
     z-index: 3;
   }
@@ -408,7 +396,7 @@
   
   ion-icon {
     color: #32915e;
-    font-size: 2.3em;
+    font-size: 2.2em;
     margin: 25px 0;
   }
   
@@ -420,10 +408,6 @@
   
   
   @media only screen and (max-width: 1024px) {
-    .social-icons { 
-      padding-top: 13%;
-    } 
-  
     ion-icon {
       color: #32915e;
       font-size: 2em;
@@ -435,7 +419,6 @@
     .social-icons {
       width: 75%;
       margin: 0 12.5%;
-      padding-top: 7%;
     }
   
     .social-icons ul {
