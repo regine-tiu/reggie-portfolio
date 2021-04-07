@@ -266,18 +266,16 @@
     nav {
       display: flex; 
       width: 100%;
-      justify-content: space-around;
-    }
-  }
-  
-  @media only screen and (max-width: 380px) {
-    nav ul li {
-      display: block;
+      justify-content: center;
       text-align: center;
     }
   
-    nav ul {
-      padding-inline-start: 20px;
+    nav ul li {
+      display: block;
+    }
+
+    nav ul li a:link {
+      margin-left: 0;
     }
   } 
   /* ----------- Hero Area ----------- */
@@ -634,10 +632,6 @@
       margin-bottom: 4%;
     }
   }
-  
-  @media only screen and (max-width: 480px) {
-   
-  }
 
   /*------------ SKILLS SECTION -----------*/
   h3 {
@@ -693,14 +687,30 @@
       font-size: 1.6em;
     }
 
-    .skills-col {
-      display: flex;
-      justify-content: flex-start;
-    }
-    
     .coding li {
       font-size: 1.5em;
     }
+  }
+
+  @media only screen and (max-width: 600px) {
+   .skills-col {
+     width: 100%;
+   }
+
+   .skills-col ul {
+     width: 100%;
+     padding-inline-start: 0;
+   }
+
+   .coding {
+     text-align: center;
+   }
+
+   .coding li {
+     font-size: 1.2em;
+     display: inline;
+     padding-right: 10px;
+   }
   }
 
 /*------------ FOOTER -------------*/
@@ -740,6 +750,20 @@ p span a:active {
   border: 1px solid antiquewhite;
   transform: 0.3s;
 }  
+
+@media only screen and (max-width: 600px) {
+  footer p {
+    font-size: 1.2em;
+    font-weight: normal;
+  }
+
+  p span a:link {
+    display: block;
+    width: 28%;
+    margin: 0 35%;
+    margin-top: 3%;
+  }
+}
 
 /* ------- B L O B S ! ------- */
 .blob-1 {
@@ -825,7 +849,6 @@ p span a:active {
     }
   }
   
-
   @media only screen and (max-width: 1024px) {
     .blob-3 {
       position: absolute;
@@ -1125,4 +1148,4 @@ p span a:active {
     }
   }
   
-  }
+
