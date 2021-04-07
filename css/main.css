@@ -170,7 +170,6 @@
     }
   }
 
-
   /*------------ HERO SECTION -----------*/
   /* ------------ Header ------------ */
   header {
@@ -204,10 +203,6 @@
       margin: 50px 0 0 50px;
       -webkit-text-stroke: 1.5pt #4c6381;
     }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-   
   }
   
   @media only screen and (max-width: 480px) {
@@ -336,21 +331,18 @@
       font-size: 8.5em;
       line-height: 1.18;
     }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 6.5em;
-      margin-left: 10%;
+
+    .welcome{
+      margin-left: 0;
     }
   }
   
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 5em;
-      margin-left: 10%;
+      font-size: 6em;
     }
   }
+
   /* ------- Social Media Icons ------ */
   .social-icons {
     width: 5%;
@@ -387,20 +379,14 @@
   
   @media only screen and (max-width: 768px) {
     .social-icons {
-      width: 75%;
-      margin: 0 12.5%;
+      width: 100%;
     }
   
     .social-icons ul {
-      width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: space-around;
-      padding-inline-start: 0;
     }  
-    
-    .social-icons ul li {
-      display: inline-block;
-    }
   }
   
   @media only screen and (max-width: 480px) {
@@ -667,7 +653,7 @@
   .skills-col {
     display: inline-flex;
     justify-content: space-around;
-    width: 45%;
+    width: 50%;
   }
 
   .coding li {
