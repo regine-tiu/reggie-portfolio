@@ -117,18 +117,13 @@
     position: relative;
   }
   
-  section {
-    width: 100%;
-    margin-bottom: 7%;
-  }
-  
   h2 {
     display: flex;
     align-items: flex-start;
     color: #d67070;
     font-size: 3.8em;
     letter-spacing: 1px;
-    text-decoration: underline solid #d67070 2px;
+    text-decoration: underline;
     margin: 3% 0;
     position: relative;
     width: 100%;
@@ -156,10 +151,15 @@
   }
   
   /* ---------- S E C T I O N S ----------- */
-  
   section {
     width: 88%;
-    margin: 0 6%;
+    margin: 3% 6%;
+    /* margin-bottom: %; */
+  }
+
+  .hero-section {
+    margin-top: 0%;
+    width: 100%
   }
 
   @media only screen and (max-width: 768px) {
@@ -457,20 +457,15 @@
   }
   
   /*------------ ABOUT SECTION -----------*/
-  .about-section {
-    display: flex;
-    align-items: center;
-  }
-
   .profile-pic {
-    width: 45%;
-    margin-left: 5%;
+    width: 48%;
+    margin-right: 2%
    }
 
   .profile-pic img {
     border-radius: 5%;
     box-shadow: 35px 35px #d67070d3;
-    margin: 8%;
+    margin: 0 8%;
     height: auto;
     width: 75%;
     position: relative;
@@ -479,15 +474,14 @@
     
   .about-text {
     display: inline-block;
-    width: 45%;
-    margin-right: 5%;
+    width: 50%;
     position: relative;
     z-index: 3;
   }
   
   p {
     font-size: 1.7em;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-top: 2%;
   }
   
@@ -547,23 +541,11 @@
   /*------------ PROJECTS SECTION -----------*/
   
   h4 {
-    margin-block-start: 0;
-    margin-block-end: 0;
-  }
-  
-  h4 a:link,
-  h4 a:visited {
     color:antiquewhite;
     font-size: 2em;
     font-weight: normal;
-    text-decoration: none;
     margin: 0;
-  }
-  
-  h4 a:hover,
-  h4 a:active{
-    color:#d67070;
-    transition: color 0.2s;
+    text-decoration: none;
   }
   
   h5 {
@@ -683,20 +665,16 @@
   }
 
   /*------------ SKILLS SECTION -----------*/
-  .skills-section {
-    width: 88%;
-    margin: 0 6%;
-  }
-
   h3 {
     color: #d67070;
     font-size: 2em;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: -2%;
     margin-bottom: 3%;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-align: center;
+
   }
 
   .skills-col {
@@ -706,7 +684,7 @@
   }
 
   .coding li {
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: bold;
     letter-spacing: 1px;
     padding-top: 10px;
@@ -890,8 +868,6 @@
   .contact-section {
     position: relative;
     z-index: 3;
-    width: 93%;
-    margin-left: 7%;
   }
   
   .contact-msg {
