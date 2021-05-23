@@ -864,6 +864,21 @@ p span a:active {
     }
   }
   
+   
+  /*------------ PROJECTS PAGE -----------*/
+  .project-section h2 {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .project-section p {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-top: 0;
+    text-decoration: none;
+  }
+
+
   /*------------ CONTACT PAGE -----------*/
   label,
   input,
