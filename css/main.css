@@ -875,8 +875,17 @@ p span a:active {
     font-size: 1.3em;
     font-style: italic;
     margin-top: 0;
-    text-decoration: none;
   }
+  
+  .project-section p a:link
+  .project-section p a:visited {
+    text-decoration: none;
+    color: #32915e;
+  }
+
+  .project-section p a:hover
+  .project-section p a:active {
+    color:aliceblue
 
 
   /*------------ CONTACT PAGE -----------*/
