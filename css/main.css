@@ -885,7 +885,8 @@ p span a:active {
 
   .project-section p a:hover
   .project-section p a:active {
-    color:aliceblue
+    color:fff;
+  }
 
 
   /*------------ CONTACT PAGE -----------*/
