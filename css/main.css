@@ -866,28 +866,27 @@ p span a:active {
   
    
   /*------------ PROJECTS PAGE -----------*/
+  .project-section {
+    margin: 0.5% 6%;
+  }
+
   .project-section h2 {
     display: inline-block;
     text-align: center;
+    text-decoration: none;
   }
 
   .project-section p {
     font-size: 1.3em;
     font-style: italic;
     margin-top: 0;
+    text-align: center;
   }
   
-  .project-section p a:link
-  .project-section p a:visited {
+  a:-webkit-any-link {
     text-decoration: none;
     color: #32915e;
   }
-
-  .project-section p a:hover
-  .project-section p a:active {
-    color:fff;
-  }
-
 
   /*------------ CONTACT PAGE -----------*/
   label,
