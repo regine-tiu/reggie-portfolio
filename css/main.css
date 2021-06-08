@@ -888,6 +888,27 @@ p span a:active {
     color: #32915e;
   }
 
+  .frame-1 {
+    height: 350px;
+    width: 520px;
+    border: 3px solid #4c6381;
+    border-radius: 35px;
+    background-color: #222;
+  }
+  .projs img{
+    border: 3px solid #4c6381;
+    border-radius: 35px;
+  }
+
+  .projs {
+    margin: 1% 1%;
+  }
+
+  .project-footer{
+    margin-bottom: 2%;
+  }
+
+
   /*------------ CONTACT PAGE -----------*/
   label,
   input,
