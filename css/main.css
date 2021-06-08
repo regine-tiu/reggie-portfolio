@@ -887,6 +887,10 @@ p span a:active {
     text-decoration: none;
     color: #32915e;
   }
+  .projs {
+    margin: 1% 1%;
+    position: relative;
+  }
 
   .frame-1 {
     height: 350px;
@@ -894,14 +898,19 @@ p span a:active {
     border: 3px solid #4c6381;
     border-radius: 35px;
     background-color: #222;
+    position: relative;
   }
   .projs img{
     border: 3px solid #4c6381;
     border-radius: 35px;
   }
 
-  .projs {
-    margin: 1% 1%;
+  .proj-text{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .project-footer{
