@@ -881,6 +881,7 @@ p span a:active {
     font-style: italic;
     margin-top: 0;
     text-align: center;
+    margin-bottom: 3%;
   }
   
   a:-webkit-any-link {
@@ -911,6 +912,7 @@ p span a:active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
   }
 
   .project-footer{
