@@ -537,35 +537,23 @@
     margin-left: 11.5%;
   }
   
-  
-  /* .projects-btn {
-    width: 100%;
+  .see-more-btn a:link,
+  .see-more-btn a:visited {
+    font-size: 85%;
+    color: #4c6381;
+    border: 2px solid #4c6381;
+    border-radius: 50px;
+    padding: 10px 20px;
     margin-top: 3%;
-    margin-bottom: -4%;
   }
 
-  .projects-btn p {
-    text-align: center;
-  }
-
-  .projects-btn p a:link,
-  .projects-btn p a:visited {
-  color:#4c6381;
-  font-size: 90%;
-  font-weight: bold;
-  border-radius: 50px;
-  border: 2px solid #4c6381;
-  padding: 1% 3%;
-  text-decoration: none;
-  }
-
-  .projects-btn p a:hover,
-  .projects-btn p a:active {
+  .see-more-btn a:hover,
+  .see-more-btn a:active { 
     color: antiquewhite;
     background-color: #d67070;
-    border: 2px solid #d67070;
-    transition: 0.3s;
-  }   */
+    border-color: transparent;
+    transition: 0.2s;
+  }
   
   @media only screen and (min-width: 1366px) {
     h5 {
