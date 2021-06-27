@@ -920,6 +920,11 @@ p span a:active {
     filter: brightness(0.8);
   }
 
+  .projs img:hover {
+    transform: scale(1.008);
+    transition: 0.3s;
+  }
+
   .proj-text{
     position: absolute;
     z-index: 1;
