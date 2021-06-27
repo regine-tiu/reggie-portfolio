@@ -876,6 +876,11 @@ p span a:active {
     text-decoration: none;
   }
 
+  a:-webkit-any-link {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+
   .project-section p {
     font-size: 1.3em;
     font-style: italic;
@@ -884,9 +889,17 @@ p span a:active {
     margin-bottom: 3%;
   }
   
-  a:-webkit-any-link {
-
+  .project-section p a:link,
+  .project-section p a:visited{
+    color: #32915e;
   }
+
+  .project-section p a:hover,
+  .project-section p a:active {
+    color: #d67070;
+    transition: 0.2s;
+  }
+
 
   .projs {
     margin: 1% 1%;
@@ -904,6 +917,7 @@ p span a:active {
   .projs img{
     border: 3px solid #4c6381;
     border-radius: 35px;
+  
   }
 
   .proj-text{
