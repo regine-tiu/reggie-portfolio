@@ -551,7 +551,7 @@
   .see-more-btn a:active { 
     color: antiquewhite;
     background-color: #d67070;
-    border-color: transparent;
+    border-color: #d67070;
     transition: 0.2s;
   }
   
