@@ -552,6 +552,7 @@
     color: antiquewhite;
     background-color: #d67070;
     border-color: #d67070;
+    opacity: 0.9;
     transition: 0.2s;
   }
   
