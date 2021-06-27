@@ -917,7 +917,7 @@ p span a:active {
   .projs img{
     border: 3px solid #4c6381;
     border-radius: 35px;
-  
+    filter: brightness(0.8);
   }
 
   .proj-text{
@@ -927,6 +927,11 @@ p span a:active {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .proj-text h4 a:hover,
+  .proj-text h4 a:active {
+    color:#d67070;
   }
 
   .project-footer{
