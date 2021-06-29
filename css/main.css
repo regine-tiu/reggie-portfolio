@@ -537,14 +537,19 @@
     margin-left: 11.5%;
   }
   
+  .see-more-btn{
+    margin: 5% 0;
+  }
+
   .see-more-btn a:link,
   .see-more-btn a:visited {
-    font-size: 85%;
+    font-size: 70%;
+    font-weight: 600;
+    letter-spacing: 0.8px;
     color: #4c6381;
     border: 2px solid #4c6381;
     border-radius: 50px;
-    padding: 10px 20px;
-    margin-top: 3%;
+    padding: 10px 30px;
   }
 
   .see-more-btn a:hover,
@@ -609,12 +614,6 @@
     h5 {
       font-size: 0.7em;
     }
-
-    /* .projects-btn {
-      font-size: 0.8em;
-      margin-top: 0;
-      margin-bottom: 4%;
-    } */
   }
 
   /*------------ SKILLS SECTION -----------*/
@@ -915,9 +914,8 @@ p span a:active {
     text-align: center;
   }
 
-  .proj-text h4 a:hover,
-  .proj-text h4 a:active {
-    color:#d67070;
+  .proj-text h4:hover {
+    color: #4c6381;
   }
 
   .short-line {
