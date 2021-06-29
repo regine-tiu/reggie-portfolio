@@ -211,6 +211,7 @@
     .rb-logo {
       display: flex;
       justify-content: center;
+      margin: 0;
     }  
   }
 
@@ -529,6 +530,11 @@
     box-shadow: 35px 35px #d67070d3; 
     width: 85%;
     margin-left: 10%;
+  }
+
+  .project-screenshot img:hover {
+    transform:scale(1.006);
+    transition: 0.3s;
   }
   
   .project-2 img {
@@ -869,6 +875,10 @@ p span a:active {
     margin: 0.5% 6%;
   }
 
+  .project-section h2 {
+    justify-content: center;
+  }
+
   a:-webkit-any-link {
     text-decoration: none;
     color: antiquewhite;
@@ -899,8 +909,8 @@ p span a:active {
     border: 3px solid #4c6381;
     border-radius: 35px;
     overflow: hidden;
-    height: 350px;
-    width: 520px;
+    min-height: 350px;
+    min-width: 520px;
   }
 
   .projs img{
@@ -946,7 +956,20 @@ p span a:active {
     .proj-text h5 {
       font-size: 0.9em;
     }
+  }
 
+  @media only screen and (max-width: 768px) {
+    .projs {
+      min-width: 325px;
+      min-height: 215px;
+      margin: 3% 0;
+    }
+
+    .project-section p {
+      font-size: 1em;
+      margin-top: 2%; 
+      margin-bottom: 5%;
+    }
   }
 
   /*------------ CONTACT PAGE -----------*/
