@@ -585,6 +585,10 @@
       font-size: 0.8em;
       margin-top: 7%;
     }
+
+    .see-more-btn h4{
+      font-size: 2em;
+    }
   }
   
   @media only screen and (max-width: 768px) {
@@ -611,6 +615,18 @@
   
     h5 {
       font-size: 0.7em;
+    }
+
+    .see-more-btn h4{
+      font-size: 1.8em;
+      margin-bottom: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .see-more-btn h4{
+      font-size: 1.5em;
+      margin-bottom: 15%;
     }
   }
 
