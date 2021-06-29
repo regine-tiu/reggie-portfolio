@@ -938,6 +938,16 @@ p span a:active {
     margin-bottom: 1%;
   }
 
+  @media only screen and (max-width: 1024px) {
+    .proj-text h4 {
+      font-size: 1.6em;
+    }
+
+    .proj-text h5 {
+      font-size: 0.9em;
+    }
+
+  }
 
   /*------------ CONTACT PAGE -----------*/
   label,
