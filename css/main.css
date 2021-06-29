@@ -211,6 +211,7 @@
     .rb-logo {
       display: flex;
       justify-content: center;
+      width: 100%;
       margin: 0;
     }  
   }
@@ -267,14 +268,20 @@
   
   @media only screen and (max-width: 480px) {
     nav {
-      display: none; 
-      width: 100%;
       justify-content: center;
       text-align: center;
+      margin-right: 0;
+      width: 100%
     }
-  
+    
+    nav ul {
+      padding-inline-start: 0px;
+    }
+
     nav ul li {
-      display: block;
+      display: inline-block;
+      width: 45%;
+      margin-top: 2%;
     }
 
     nav ul li a:link {
@@ -373,7 +380,7 @@
   @media only screen and (max-width: 1024px) {
     ion-icon {
       color: #32915e;
-      font-size: 2em;
+      font-size: 2.2em;
       margin-top: 32px;
     }
   }
@@ -392,9 +399,18 @@
   
   @media only screen and (max-width: 480px) {
     ion-icon {
-      font-size: 1.9em;
+      font-size: 2em;
     }
-  
+    
+    .social-icons ul {
+     width: 100%;
+    }
+
+    .social-icons ul li {
+      display: inline-block;
+      width: 50%;
+    } 
+
     .social-icons {
       padding-top: 0%;
     }
