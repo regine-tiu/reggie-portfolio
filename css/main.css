@@ -938,6 +938,7 @@ p span a:active {
   .projs img{
     width: 100%;
     filter: 0.8;
+    overflow: hidden;
   }
 
   .projs img:hover {
@@ -954,7 +955,7 @@ p span a:active {
     text-align: center;
   }
 
-  .proj-text h4:hover {
+  .proj-text h4 a:hover {
     color: #4c6381;
   }
 
