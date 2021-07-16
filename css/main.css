@@ -948,6 +948,7 @@ p span a:active {
   .projs img:hover {
     transform: scale(1.05);
     transition: 0.3s;
+    overflow: hidden;
   }
 
   .proj-text{
@@ -957,6 +958,10 @@ p span a:active {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .proj-7 h4 a{
+    color: #4c6381;
   }
 
   .proj-text h4 a:hover {
