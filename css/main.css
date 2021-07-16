@@ -120,7 +120,7 @@
   .color-block {
     opacity: 0.9;
   }
-
+  
   /* ---------- H E A D I N G S  ----------- */
   h2 {
     display: flex;
@@ -935,6 +935,10 @@ p span a:active {
     min-width: 520px;
   }
 
+  .proj-1 {
+    background-color: #000;
+  }
+
   .projs img{
     width: 100%;
     filter: 0.8;
@@ -1284,4 +1288,4 @@ p span a:active {
     }
   }
   
-
+ 
