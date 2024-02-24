@@ -91,7 +91,7 @@
   :root {
     --meadow: #FFE37E;
     --mulberry: #D85358;
-    --mulberry_08: #d67070;
+    --mulberry_08: #DB6468;
     --white: #fff;
   }
 
@@ -386,7 +386,6 @@
   
   @media only screen and (max-width: 1024px) {
     ion-icon {
-      color: #32915e;
       font-size: 2.2em;
       margin-top: 32px;
     }
