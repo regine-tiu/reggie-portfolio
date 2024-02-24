@@ -87,6 +87,14 @@
      Author's custom styles
      ========================================================================== */
   
+  /* ---------- G L O B A L  V A R I A B L E S  ----------- */
+  :root {
+    --meadow: #FFE37E;
+    --mulberry: #D85358;
+    --mulberry_08: #d67070;
+    --white: #fff;
+  }
+
   /* ---------- G E N E R A L  S T Y L E S  ----------- */
   html {
     font-size: 16px;
@@ -100,7 +108,7 @@
   }
   
   body {
-    background-color: #ffe473;
+    background-color: var(--meadow);
     color: #4c6381;
     font-family: ivypresto-display, serif;
     font-size: 1em;
@@ -125,7 +133,7 @@
   h2 {
     display: flex;
     align-items: flex-start;
-    color: #d67070;
+    color: var(--mulberry);
     font-size: 3.6em;
     font-weight: bold;
     letter-spacing: 1px;
@@ -232,7 +240,7 @@
   
   nav ul li a:link,
   nav ul li a:visited {
-    color:#d67070;
+    color:var(--mulberry);
     font-size: 1.4em;
     font-weight: bold;
     letter-spacing: 1px;
@@ -242,9 +250,8 @@
   
   nav ul li a:hover,
   nav ul li a:active {
-    color: #fff;
-    border-bottom: 1.5px solid #fff;
-    transition: 0.3s;
+    border-bottom: 1.5px solid var(--mulberry);
+    transition: 0.2s;
   }
   
   @media only screen and (min-width: 1366px) {
@@ -742,7 +749,7 @@
 
 /*------------ FOOTER -------------*/
 footer {
-  background-color: #d67070;
+  background-color: var(--mulberry_08);
   opacity: 0.8;
   width: 110%;
   margin-top: 5%;
