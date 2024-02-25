@@ -89,7 +89,7 @@
   
   /* ---------- G L O B A L  V A R I A B L E S  ----------- */
   :root {
-    --meadow: #FFE37E;
+    --sunshine: #FFE37E;
     --mulberry: #D85358;
     --mulberry_08: #DB6468;
     --blueberry: #4c6381;
@@ -109,7 +109,7 @@
   }
   
   body {
-    background-color: var(--meadow);
+    background-color: var(--sunshine);
     color: var(--blueberry);
     font-family: ivypresto-display, serif;
     font-size: 1em;
