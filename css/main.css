@@ -90,9 +90,11 @@
   /* ---------- G L O B A L  V A R I A B L E S  ----------- */
   :root {
     --sunshine: #FFE37E;
-    --mulberry: #D85358;
-    --mulberry_08: #DB6468;
+    --mulberry: #d85357;
+    --mulberry_09: #DB6468;
+    --mulberry_08: #d85357c8;
     --blueberry: #4c6381;
+    --meadow: #32915E;
     --white: #fff;
   }
 
@@ -165,12 +167,11 @@
   
   /* ---------- S E C T I O N S ----------- */
   section {
-    width: 88%;
     margin: 5% 6%;
+    width: 88%;
   }
 
   .hero-section {
-    margin-top: 0%;
     width: 100%
   }
 
@@ -321,9 +322,9 @@
   }
   
   h1 span:hover {
-    color: var(--mulberry_08);
+    color: var(--mulberry_09);
     transition: color 0.2s;
-    text-decoration: underline solid var(--mulberry_08) 3px;
+    text-decoration: underline solid var(--mulberry_09) 3px;
     z-index: 3;
   }
   
@@ -431,7 +432,7 @@
 
   .profile-pic img {
     border-radius: 5%;
-    box-shadow: 35px 35px #d67070d3;
+    box-shadow: 35px 35px #d85357c8;
     margin: 0 8%;
     height: auto;
     width: 75%;
@@ -667,13 +668,18 @@
   }
 
   /*------------ SKILLS SECTION -----------*/
+  .skills-section {
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
   h3 {
     color: #d67070;
     font-size: 2em;
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 0%;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
     text-align: center;
   }
 
@@ -681,6 +687,7 @@
     display: inline-flex;
     justify-content: space-around;
     width: 50%;
+    padding-top: 3%
   }
 
   .coding li {
@@ -693,7 +700,7 @@
   }
   
   .coding li:hover {
-    color:#fff;
+    color:var(--meadow);
     transition: 0.2s;
   }
   
@@ -749,14 +756,13 @@
 
 /*------------ FOOTER -------------*/
 footer {
-  background-color: var(--mulberry_08);
-  opacity: 0.8;
-  width: 110%;
+  background-color: #d57772;
+  width: 100%;
   margin-top: 3%;
 }
 
 footer p {
-  color:antiquewhite;
+  color:#fff;
   font-size: 1.6em;
   font-weight: bold;
   letter-spacing: 1px;
@@ -800,6 +806,14 @@ p span a:active {
 }
 
 /* ------- B L O B S ! ------- */
+.blob-container{
+  position: relative;
+}
+
+.blob-row {
+  overflow-x: clip;
+}
+
 .blob-1 {
   position: absolute;
   top: 12%;
