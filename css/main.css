@@ -301,16 +301,16 @@
   } 
   /* ----------- Hero Area ----------- */
   .welcome {
-    width: 75%;
+    width: 70%;
     display: inline-flex;
     align-items: flex-start;
     position: relative;
     z-index: 3;
-    margin-left: 12%;
+    margin-left: 15%;
   }
   
   h1 {
-    font-size: 13em;
+    font-size: 15em;
     font-weight: 900;
     line-height: 1.4;
     margin: 0.3em 0;
@@ -331,10 +331,15 @@
     z-index: 3;
   }
   
-  @media only screen and (min-width: 1366px) {
+  @media only screen and (max-width: 1500px) {
+    .welcome {
+      width: 75%;
+      margin-left: 12%;
+    }
+    
     h1 {
       margin-left: 3%;
-      
+      font-size: 13em;
     }
   }
   
@@ -379,7 +384,7 @@
   
   ion-icon {
     color: #32915e;
-    font-size: 2.2em;
+    font-size: 2.3em;
     margin: 25px 0;
   }
   
@@ -389,7 +394,7 @@
     transition: scale 0.3s;
   }
   
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1500px) {
     ion-icon {
       font-size: 2.2em;
       margin-top: 32px;
@@ -429,8 +434,8 @@
   
   /*------------ ABOUT SECTION -----------*/
   .profile-pic {
-    width: 48%;
-    margin-right: 2%
+    width: 42%;
+    margin-right: 3%
    }
 
   .profile-pic img {
@@ -451,15 +456,21 @@
   }
   
   p {
-    font-size: 1.7em;
+    font-size: 2.1em;
+    margin-top: 5%;
     line-height: 1.5;
-    margin-top: 2%;
   }
   
-  @media only screen and (min-width: 1366px) {
-    p {
+  @media only screen and (max-width: 1500px) {
+    .profile-pic {
+      width: 48%;
+      margin-right: 2%
+     }  
+
+     p {
       font-size: 2em;
       margin-top: 5%;
+      line-height: 1.5;
     }
   }
   
@@ -515,7 +526,7 @@
   h4 {
     color:var(--wheat);
     font-size: 2em;
-    font-weight: 400;
+    font-weight: normal;
     margin: 0;
     text-decoration: none;
   }
@@ -535,7 +546,7 @@
   .project-item {
     display: flex;
     align-items: center;
-    margin: 7% 0;
+    margin: 6% 0;
     position: relative;
     z-index: 3;
   }
@@ -545,8 +556,8 @@
     border-radius: 5%;
     padding: 3%;
     text-align: center;
-    margin-left: 5%;
-    width: 15%;
+    margin-left: 10%;
+    width: 20%;
   }
   
   .project-screenshot img{
@@ -556,8 +567,8 @@
     border: 3px solid #fff;
     border-radius: 30px;   
     box-shadow: 35px 35px var(--mulberry_08); 
-    width: 80%;
-    margin-left: 10%;
+    width: 75%;
+    margin-left: 13%;
   }
 
   .project-screenshot img:hover {
@@ -592,10 +603,15 @@
     transition: 0.2s;
   }
   
-  @media only screen and (min-width: 1366px) {
+  @media only screen and (max-width: 1500px) {
     h5 {
       margin-top: 7%;
       line-height: 1.6;
+    }
+
+    .title-card {
+      width: 20%;
+      margin-left: 5%;
     }
     
     .project-screenshot img{
@@ -817,17 +833,17 @@ p span a:active {
 
 .blob-1 {
   position: absolute;
-  top: 12%;
-  left: -24%;
-  transform: rotate(10deg) scale(0.7);
+  top: 20%;
+  left: -15%;
+  transform: scale(0.9);
   z-index: 1;
 }
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (max-width: 1500px) {
   .blob-1 {
-  top: 20%;
-  left: -20%;
-  transform: scale(0.8);
+    top: 20%;
+    left: -20%;
+    transform: scale(0.8);
   }
 }
 
@@ -840,16 +856,17 @@ p span a:active {
   /* ------- green blob 2 ------- */
   .blob-2 {
     position: absolute;
+    transform: scale(1.2);
     top: -20%;
-    left: 65%;
+    left: 75%;
     z-index: 1;
   }
   
-  /* @media only screen and (min-width: 1366px) {
+  @media only screen and (max-width: 1500px) {
     .blob-2 {
-    
+      left: 65%;
     }
-  } */
+  }
   
   @media only screen and (max-width: 1024px) {
     .blob-2 {
@@ -868,30 +885,30 @@ p span a:active {
     position: absolute;
     top: 39%;
     left: -12%;
-    transform: rotate(7deg) scale(0.8);
+    transform: rotate(7deg) scale(1);
     z-index: 1;
   }
   
   .blob-4 {
     position: absolute;
-    top: -300%;
-    left: 70%; 
-    transform: rotate(180deg) scale(1.2);
+    top: -350%;
+    left: 75%; 
+    transform: rotate(180deg) scale(1.4);
     z-index: 1;
   }
   
-  @media only screen and (min-width: 1366px) {
+  @media only screen and (max-width: 1500px) {
     .blob-3 {
-      position: absolute;
-      top: 43%;
-      left: -10%;
-      transform: scale(0.9);
+      top: 39%;
+      left: -12%;
+      transform: rotate(7deg) scale(0.8)
     }
     
-    /* .blob-4 {
-      top: 85%;
+    .blob-4 {
+      top: -300%;
       left: 70%; 
-    } */
+      transform: rotate(180deg) scale(1.2);
+    }
   }
   
   @media only screen and (max-width: 1024px) {
