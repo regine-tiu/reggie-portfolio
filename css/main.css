@@ -834,18 +834,27 @@ p span a:active {
 .blob-1 {
   position: absolute;
   top: 20%;
-  left: -15%;
-  transform: scale(0.9);
+  left: -13%;
+  transform: scale(0.8);
   z-index: 1;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1366px) {
   .blob-1 {
-    top: 20%;
-    left: -20%;
-    transform: scale(0.8);
+    top: 12%;
+    left: -25%;
+    transform: scale(0.7);
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .blob-1 {
+    top: 20%;
+    left: -40%;
+    transform: scale(0.6);
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   .blob-1 {
@@ -864,19 +873,20 @@ p span a:active {
   
   @media only screen and (max-width: 1500px) {
     .blob-2 {
+      transform: scale(1);
       left: 65%;
     }
   }
   
   @media only screen and (max-width: 1024px) {
     .blob-2 {
-      display: none;
+      transform: scale(0.7)
     }
   }
   
   @media only screen and (max-width: 768px) {
     .blob-2 {
-      transform: scale(1.0);
+      display: none;
     }
   }
   
@@ -901,7 +911,7 @@ p span a:active {
     .blob-3 {
       top: 39%;
       left: -12%;
-      transform: rotate(7deg) scale(0.8)
+      transform: scale(0.8)
     }
     
     .blob-4 {
@@ -913,10 +923,16 @@ p span a:active {
   
   @media only screen and (max-width: 1024px) {
     .blob-3 {
-      position: absolute;
+      transform: scale(0.7);
       top: 35%;
       left: -15%;
     }  
+
+    .blob-4 {
+      top: -200%;
+      left: 70%; 
+      transform: rotate(180deg) scale(0.9);
+    }
   }
 
   @media only screen and (max-width: 768px) {
