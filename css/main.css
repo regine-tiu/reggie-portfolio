@@ -360,6 +360,11 @@
       font-size: 8.5em;
       line-height: 1.18;
     }
+
+    .welcome {
+      margin-left: 0;
+      margin-right: 8%;
+    }
   }
   
   @media only screen and (max-width: 480px) {
@@ -431,7 +436,6 @@
     }
     
     .social-icons ul{
-      padding-inline-start: 0;
       padding: 0 3%;
     }
 
