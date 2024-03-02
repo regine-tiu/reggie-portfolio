@@ -366,6 +366,10 @@
     h1 {
       font-size: 6em;
     }
+    
+    .welcome {
+      width: 85%;
+    }
   }
 
   /* ------- Social Media Icons ------ */
@@ -418,16 +422,13 @@
       font-size: 2em;
     }
     
-    .social-icons ul {
-     width: 100%;
+    .social-icons ul{
+      padding-inline-start: 0;
+      padding: 0 3%;
     }
 
-    .social-icons ul li {
-      display: inline-block;
-      width: 50%;
-    } 
-
     .social-icons {
+      margin-right: 0;
       padding-top: 0%;
     }
   }
