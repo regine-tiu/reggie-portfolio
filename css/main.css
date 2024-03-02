@@ -372,8 +372,11 @@
       font-size: 5.5em;
     }
     
+    .hero-section {
+      margin: 0 5%;
+    }
+
     .welcome {
-      width: 100%;
       margin-left: 0;
     }
   }
