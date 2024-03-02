@@ -368,11 +368,11 @@
   
   @media only screen and (max-width: 480px) {
     h1 {
-      font-size: 5.5em;
+      font-size: 6em;
     }
     
     .welcome {
-      width: 90%;
+      width: 100%;
     }
   }
 
