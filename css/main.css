@@ -975,17 +975,17 @@ p span a:active {
   .contact-section {
     position: relative;
     z-index: 3;
+    margin-left: 9%;
   }
   
   .contact-msg {
-    display: flex;
-    justify-content: flex-start;
     color:var(--blueberry);
+    font-style: italic;
     font-size: 1.3em;
     margin-top: 0;
     margin-bottom: 2%;
-    margin-left: 1%;
-    width: 95%
+    width: 100%;
+    padding-left: 0.5%
   }
   
   button {
@@ -1036,6 +1036,11 @@ p span a:active {
   }
   
   @media only screen and (max-width: 768px){
+    .contact-section {
+      margin: 5% 0 ;
+    }
+
+
     .contact-msg {
       font-size: 1em;
       text-align: center;
@@ -1056,10 +1061,11 @@ p span a:active {
   } 
   
   @media only screen and (max-width: 480px) {
-    form {
-      width: 95%;
-      margin: 0 2.5%;
-    }  
+    button {
+      margin-left: 26%;
+      padding: 3% 4%;
+      width: 50%
+    }
   }
   
   /* ==========================================================================
