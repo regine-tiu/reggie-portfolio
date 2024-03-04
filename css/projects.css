@@ -6,7 +6,7 @@
 
   a:-webkit-any-link {
     text-decoration: none;
-    color: antiquewhite;
+    color: var(--wheat);
   }
 
   .project-section p {
@@ -44,8 +44,9 @@
   }
 
   .projs div:hover {
-    background-color: #000;
-    transition: 0.3s;
+    background-color: var(--blueberry_09);
+    opacity: 0.9;
+    transition: 0.2s;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -65,12 +66,14 @@
     text-align: center;
   }
 
-  .proj-7 h4 a{
-    display: hidden;
-  }
-
-  .proj-text h4 a:hover {
-    color: var(--wheat);
+  .proj-text:hover{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 
   .short-line {
