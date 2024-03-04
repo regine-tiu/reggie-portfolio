@@ -34,27 +34,29 @@
     border: 3px solid var(--blueberry);
     border-radius: 35px;
     overflow: hidden;
-    min-height: 350px;
-    min-width: 520px;
-  }
-
-  .proj-1 {
-    background-color: #000;
+    max-height: 450px;
+    max-width: 520px;
   }
 
   .projs img{
     width: 100%;
-    filter: 0.8;
     overflow: hidden;
   }
 
-  .projs img:hover {
-    transform: scale(1.05);
+  .projs div:hover {
+    background-color: #000;
     transition: 0.3s;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .proj-text{
+    display: block;
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -64,18 +66,17 @@
   }
 
   .proj-7 h4 a{
-    color: var(--blueberry);
+    display: hidden;
   }
 
   .proj-text h4 a:hover {
-    color: var(--blueberry);
+    color: var(--wheat);
   }
 
   .short-line {
-    display: flex;
     justify-content: center;
-    border-top: 1px solid #fff;
-    margin: 3% 20% 0 20%;
+    border-top: 1.5px solid #fff;
+    margin: 4% 20% 0 20%;
     width: 60%;
   }
 
