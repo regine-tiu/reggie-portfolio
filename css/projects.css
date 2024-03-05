@@ -28,25 +28,53 @@
     transition: 0.2s;
   }
 
-  .project-item {
-    margin: 1% 1%;
-    position: relative;
-    border: 3px solid var(--blueberry);
-    border-radius: 35px;
-    overflow: hidden;
-    max-height: 450px;
-    max-width: 520px;
-  }
 
-  .project-title{
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+/*------------ Project Filter -----------*/
+.filter-section h3 {
+  color: var(--blueberry);
+  font-weight: 400;
+ 
+}
+
+.filter-buttons {
+
+}
+
+.filter-buttons button {
+  border: 1px solid
+}
+
+.filter-buttons button:hover,
+.filter-buttons button:visited {
+  border: 1px solid var(--blueberry);
+  color: var(--white);
+  background-color: var(--blueberry);
+  transition: 0.2s;
+}
+
+
+
+
+
+.project-item {
+  margin: 1% 1%;
+  position: relative;
+  border: 3px solid var(--blueberry);
+  border-radius: 35px;
+  overflow: hidden;
+  max-height: 450px;
+  max-width: 520px;
+}
+
+.project-title{
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .project-image {
     width: 100%;
@@ -81,12 +109,12 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .overlay:hover .project-title {
-    opacity: 1;
+  opacity: 1;
 }
 
 
