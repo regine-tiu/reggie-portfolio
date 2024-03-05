@@ -19,7 +19,7 @@
   
   .project-section p a:link,
   .project-section p a:visited{
-    color: #32915e;
+    color: var(--meadow);
   }
 
   .project-section p a:hover,
