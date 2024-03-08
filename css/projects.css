@@ -30,7 +30,7 @@
   border: 1px solid;
   padding: 15px 30px;
   width: auto;
-  margin: 20px 10px 20px 0;
+  margin: 20px 10px 0px 0;
   font-size: 1.5em;
 }
 
@@ -42,6 +42,20 @@
   transition: 0.2s;
 }
 
+@media only screen and (max-width: 1024px) {
+  .filter-section h3 {
+    font-size: 1.7em;
+  }
+
+  .filter-buttons button {
+    border: 1px solid;
+    padding: 15px 30px;
+    width: auto;
+    margin: 10px 10px 0px 0;
+    font-size: 1.3em;
+  }
+
+}
 
 /*------------ Postscript -----------*/
 a:-webkit-any-link {
@@ -52,14 +66,13 @@ a:-webkit-any-link {
 .project-section p {
   font-size: 1.3em;
   font-style: italic;
-  margin: 0;
+  margin-top: 20px;
   text-align: center;
 }
 
 .project-section p a:link,
 .project-section p a:visited{
-  color: var(--meadow);
-  
+  color: var(--meadow);  
 }
 
 .project-section p a:hover,
@@ -145,17 +158,9 @@ a:-webkit-any-link {
 .project-footer{
   margin-bottom: 1%;
 }
+
+
 /* 
-  @media only screen and (max-width: 1024px) {
-    .project-title h4 {
-      font-size: 1.6em;
-    }
-
-    .project-title h5 {
-      font-size: 0.9em;
-    }
-  }
-
   @media only screen and (max-width: 768px) {
     .projs {
       min-width: 325px;
