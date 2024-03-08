@@ -37,7 +37,7 @@
 .filter-buttons button.clicked {
   border: 1px solid var(--blueberry);
   color: var(--wheat);
-  background-color: var(--blueberry);
+  background-color: var(--navy_blue);
   transition: 0.2s;
 }
 
@@ -72,7 +72,7 @@ a:-webkit-any-link {
 /*------------ Project Gallery -----------*/
 .filter-results {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-flow: row wrap;
 }
 
