@@ -27,20 +27,25 @@
 }
 
 .filter-buttons button {
-  border: 1px solid;
+  border: 1px solid var(--blueberry);
   padding: 15px 30px;
   width: auto;
   margin: 20px 10px 0px 0;
   font-size: 1.5em;
+  color: var(--blueberry);
 }
 
-.filter-buttons button:hover,
+.filter-buttons button:hover {
+  color: var(--wheat);
+  background-color: var(--blueberry_08);
+}
+
 .filter-buttons button.clicked {
-  border: 1px solid var(--blueberry);
   color: var(--wheat);
   background-color: var(--navy_blue);
   transition: 0.2s;
 }
+
 
 @media only screen and (max-width: 1024px) {
   .filter-section h3 {
