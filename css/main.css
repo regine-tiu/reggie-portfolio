@@ -619,8 +619,12 @@
   .project-2 img {
     border: 3px solid var(--blueberry);
   }
-  
- 
+
+
+  .project-section button:hover {
+    background-color:var(--blueberry) ;
+  }
+
   .see-more-button {
     margin-top: 6%;
   }
@@ -630,13 +634,8 @@
     font-size: 2.1em;
     padding: 10px 35px
   }
-
-  .project-section button:hover {
-    background-color:var(--blueberry) ;
-  }
-
   
-  @media only screen and (max-width: 1500px) {
+  @media only screen and (max-width: 1400px) {
     h5 {
       margin-top: 7%;
       line-height: 1.6;
@@ -668,8 +667,13 @@
       margin-top: 7%;
     }
 
-    .see-more-btn h4{
-      font-size: 2em;
+    .see-more-button {
+      margin-top: 10%;
+    }
+  
+    .see-more-button a{
+      font-size: 1.8em;
+      padding: 10px 35px
     }
   }
   
@@ -698,25 +702,40 @@
     }
 
     h4 {
-      font-size: 1.2em;
+      font-size: 1.8em;
+    }
+  
+    h5 {
+      font-size: 1em;
+    }
+
+    .see-more-button {
+      margin: 8% 0 6% 0
+    }
+  
+    .see-more-button a{
+      font-size: 1.6em;
+      padding: 10px 35px
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    h4 {
+      font-size: 1.4em;
     }
   
     h5 {
       font-size: 0.7em;
     }
 
-    .see-more-btn h4{
-      font-size: 1.6em;
-      margin-bottom: 10%;
+    .see-more-button a{
+      font-size: 1.3em;
+      padding: 10px 35px
     }
   }
 
-  @media only screen and (max-width: 480px) {
-    .see-more-btn h4{
-      font-size: 1.5em;
-      margin-bottom: 15%;
-    }
-  }
+
+
 
   /*------------ SKILLS SECTION -----------*/
   .skills-section {
