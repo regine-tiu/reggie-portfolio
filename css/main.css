@@ -1066,6 +1066,11 @@ p span a:active {
     text-align: center;
     margin-left: 15%;
   }
+
+  form p:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+  }
   
   @media only screen and (min-width: 1366px) {
     label,
