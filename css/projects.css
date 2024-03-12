@@ -67,10 +67,10 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .filter-section{
-    justify-content: center;
+  .filter-section {
+    align-items: center;
   }
-
+  
   .filter-buttons {
     justify-content: center;
   }
@@ -228,6 +228,9 @@ a:-webkit-any-link {
     border-radius: 20px;
   }
 
+  .short-line {
+    border-top: 1px solid;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -238,6 +241,10 @@ a:-webkit-any-link {
   
   .project-item {
     margin: 3% 0;
+  }
+
+  .project-title h4 {
+    font-size: 1.3em;
 
   }
 }
