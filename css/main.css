@@ -627,7 +627,7 @@
 
   .see-more-button a{
     color: var(--blueberry);
-    font-size: 1.8em;
+    font-size: 2.1em;
     padding: 10px 35px
   }
 
@@ -881,9 +881,11 @@ footer p {
     margin-top: 3%;
     margin-left: 33%;
   }
-} */
+}
+
 /* ------- B L O B S ! ------- */
-.blob-container{
+
+.blob-container {
   position: relative;
   overflow-x: clip;
   height: 100px;
