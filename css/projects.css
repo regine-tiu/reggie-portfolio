@@ -48,18 +48,54 @@
 
 
 @media only screen and (max-width: 1024px) {
+  .filter-section {
+    margin: 3% 0 2% 2%;
+  }
+
   .filter-section h3 {
     font-size: 1.7em;
+    margin-bottom: 1%;
   }
 
   .filter-buttons button {
-    border: 1px solid;
-    padding: 15px 30px;
+    padding: 12px 30px;
     width: auto;
-    margin: 10px 10px 0px 0;
+    margin: 10px 10px 0 0;
     font-size: 1.3em;
   }
 
+}
+
+@media only screen and (max-width: 768px) {
+  .filter-section{
+    justify-content: center;
+  }
+
+  .filter-buttons {
+    justify-content: center;
+  }
+
+  .filter-buttons button {
+    padding: 10px 25px;
+    width: auto;
+    margin: 10px 10px 0 0;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .filter-section h3 {
+    font-size: 1.3em;
+    margin-bottom: 1%;
+    letter-spacing: 0;
+  }
+
+  .filter-buttons button {
+    padding: 10px 20px;
+    width: auto;
+    margin: 10px 5px 0 0;
+    font-size: 1em;
+  }
 }
 
 /*------------ Postscript -----------*/
@@ -86,8 +122,17 @@ a:-webkit-any-link {
   transition: 0.2s;
 }
 
+@media only screen and (max-width: 768px) {
+  .project-section p {
+    font-size: 1.1em;
+  }  
+}
 
-
+@media only screen and (max-width: 480px) {
+  .project-section p {
+    font-size: 1em;
+  }  
+}
 /*------------ Project Gallery -----------*/
 .filter-results {
   display: grid;
@@ -102,7 +147,7 @@ a:-webkit-any-link {
   overflow: hidden;
 }
 
-.project-title{
+.project-title {
   display: block;
   position: absolute;
   z-index: 1;
@@ -160,27 +205,39 @@ a:-webkit-any-link {
   width: 60%;
 }
 
-.project-footer{
+.project-footer {
   margin-bottom: 1%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .project-item {
+    border: 2px solid var(--blueberry);
+    border-radius: 25px;
+  }
+}
 
-/* 
-  @media only screen and (max-width: 768px) {
-    .projs {
-      min-width: 325px;
-      min-height: 215px;
-      margin: 3% 0;
-      border: 2px solid var(--blueberry);
-    }
 
-    .project-section p {
-      font-size: 1em;
-      margin-top: 2%; 
-      margin-bottom: 5%;
-    }
+@media only screen and (max-width: 768px) {
+  .filter-results {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+  }
+  
+  .project-item {
+    border: 2px solid var(--blueberry);
+    border-radius: 20px;
+  }
 
-    .project-title h4 {
-      font-size: 1.4em;
-    }
-  } */
+}
+
+@media only screen and (max-width: 480px) {
+  .filter-results {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+  }
+  
+  .project-item {
+    margin: 3% 0;
+
+  }
+}
