@@ -620,17 +620,16 @@
     border: 3px solid var(--blueberry);
   }
   
-  .project-section button{
-    margin-top: 5%;
-    padding: 15px 50px;
-    border: 1.5px solid;
-  }
-
+ 
   .see-more-button {
-    color: var(--blueberry);
-    font-size: 1.4em;
+    margin-top: 6%;
   }
 
+  .see-more-button a{
+    color: var(--blueberry);
+    font-size: 1.8em;
+    padding: 10px 35px
+  }
 
   .project-section button:hover {
     background-color:var(--blueberry) ;
