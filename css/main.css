@@ -898,7 +898,6 @@ footer p {
   top: 20%;
   left: -13%;
   transform: scale(0.8);
-  z-index: 1;
 }
 
 @media only screen and (max-width: 1366px) {
@@ -928,8 +927,7 @@ footer p {
   .blob-2 {
     position: absolute;
     transform: scale(1.2);
-    top: -20%;
-    left: 75%;
+    left: 70%;
   }
   
   @media only screen and (max-width: 1500px) {
