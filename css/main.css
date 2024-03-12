@@ -95,6 +95,7 @@
     --mulberry_08: #d85357ba;
     --blueberry: #4c6381;
     --blueberry_09: #2B38A7;
+    --blueberry_08: #445ABB;
     --meadow: #32915E;
     --meadow_08: #469B6E;
     --wheat: #FCF1E2;
@@ -135,7 +136,25 @@
   .color-block {
     opacity: 0.9;
   }
+
+  .button {
+    background-color:transparent;
+    border-radius: 50px;
+    border: 2px solid var(--blueberry);
+    color:var(--blueberry);
+    text-decoration: none;
+  }
+
+  .button:hover {
+    color:var(--wheat);
+    background-color:var(--blueberry);
+    transition: 0.2s;
+  }
   
+  /* button a {
+    text-decoration: none;
+  } */
+
   /* ---------- H E A D I N G S  ----------- */
   h2 {
     display: flex;
@@ -601,29 +620,22 @@
     border: 3px solid var(--blueberry);
   }
   
-  .see-more-btn{
-    margin-top: 5%
+  .project-section button{
+    margin-top: 5%;
+    padding: 15px 50px;
+    border: 1.5px solid;
   }
 
-  .see-more-btn a:link,
-  .see-more-btn a:visited {
-    font-size: 80%;
-    letter-spacing: 0.8px;
+  .see-more-button {
     color: var(--blueberry);
-    border: 1.5px solid var(--blueberry);
-    border-radius: 50px;
-    padding: 10px 40px;
-    text-decoration: none;
+    font-size: 1.4em;
   }
 
-  .see-more-btn a:hover,
-  .see-more-btn a:active { 
-    color: var(--wheat);
-    background-color: var(--blueberry);
-    border-color: var(--blueberry);
-    opacity: 0.9;
-    transition: 0.2s;
+
+  .project-section button:hover {
+    background-color:var(--blueberry) ;
   }
+
   
   @media only screen and (max-width: 1500px) {
     h5 {
@@ -799,6 +811,12 @@ footer {
   background-color: var(--mulberry_08);
   width: 100%;
   margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text {
+  
 }
 
 footer p {
@@ -807,7 +825,6 @@ footer p {
   letter-spacing: 1px;
   margin: 7% 0;
   text-align: center;
-  width: 100%;
 }
 
 p span a:link,
@@ -845,12 +862,25 @@ p span a:active {
 
   p span a:link {
     display: block;
-    width: 30%;
+   
     margin-top: 3%;
     margin-left: 33%;
   }
 }
 
+@media only screen and (max-width: 480px) {
+  footer p {
+    font-size: 1.2em;
+    font-weight: normal;
+  }
+
+  p span a:link {
+    display: block;
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 33%;
+  }
+}
 /* ------- B L O B S ! ------- */
 .blob-container{
   position: relative;
@@ -858,6 +888,7 @@ p span a:active {
   height: 100px;
   width: 100%;
   margin-top: -100px;
+  z-index: -1;
 }
 
 .blob-1 {
@@ -1009,11 +1040,7 @@ p span a:active {
     padding-left: 0.5%
   }
   
-  button {
-    background-color:transparent;
-    border-radius: 50px;
-    border: 2px solid var(--blueberry);
-    color:var(--blueberry);
+  .contact-section button {
     margin-top: 5%;
     margin-left: 33%;
     padding: 2%;
@@ -1021,12 +1048,6 @@ p span a:active {
     width: 30%;
   }
   
-  button:hover {
-    color:antiquewhite;
-    background-color: #d67070;
-    border: 2px solid #d67070;
-    transition: 0.2s;
-  }
   
   form {
     width: 50%;
