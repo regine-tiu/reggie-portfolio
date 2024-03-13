@@ -248,3 +248,62 @@ a:-webkit-any-link {
 
   }
 }
+
+
+  /*------------ CASE STUDIES -----------*/
+  
+  /* ---- Casestudy Header Image ---- */
+
+  .casestudy-header-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ---- Casestudy Header ---- */
+  .casestudy-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-top: 5%;
+  }
+
+  .casestudy h2 {
+    font-weight: 400;
+    font-size: 4em;
+  }
+
+  .casestudy a {
+    font-size: 1.5em;
+    color: var(--black);
+    font-family: var(--sans-serif);
+    text-decoration: underline;
+    margin-left: 20px;
+  }
+
+  .project-type-buttons button {
+    padding: 10px 30px;
+    margin: 10px 10px 0px 0;
+  }
+
+  .project-type-buttons button:hover {
+    color: var(--blueberry);
+    background-color: transparent;
+  }
+
+   /* ---- Casestudy Paragraph---- */
+   .casestudy h4 {
+    color: var(--blueberry);
+    font-size: 2.3em;
+   }
+
+   .casestudy-paragraph {
+    margin: 5% 0;
+   }
+
+   .casestudy p {
+    font-family: var(--sans-serif);
+    color: var(--black);
+    font-size: 1.5em;
+    margin-top: 1%;
+   }

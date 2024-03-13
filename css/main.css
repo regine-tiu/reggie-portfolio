@@ -89,6 +89,7 @@
   
   /* ---------- G L O B A L  V A R I A B L E S  ----------- */
   :root {
+    /* --- Colors --- */
     --sunshine: #FFE37E;
     --mulberry: #d85357;
     --mulberry_09: #DB6468;
@@ -101,6 +102,10 @@
     --wheat: #FCF1E2;
     --white: #fff;
     --navy_blue: #0000a5;
+    --black: #1D3C65;
+
+    /* --- Fonts --- */
+    --sans-serif: "Inter", sans-serif;
   }
 
   /* ---------- G E N E R A L  S T Y L E S  ----------- */
@@ -196,7 +201,7 @@
 
   @media only screen and (max-width: 768px) {
     section {
-      width: 75%;
+      width: 85%;
     }
   }
 
