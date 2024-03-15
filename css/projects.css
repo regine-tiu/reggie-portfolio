@@ -259,6 +259,16 @@ a:-webkit-any-link {
     justify-content: center;
   }
 
+  .casestudy-header-image img {
+    width: 100%;
+    /* border-radius: 30px; */
+  }
+
+  /* ---- Casestudy Container ---- */
+  .casestudy {
+    padding: 0 0.5%;
+  }
+
   /* ---- Casestudy Header ---- */
   .casestudy-header {
     display: flex;
@@ -271,6 +281,7 @@ a:-webkit-any-link {
   .casestudy h2 {
     font-weight: 400;
     font-size: 4em;
+    margin-right: 20px;
   }
 
   .casestudy a {
@@ -278,7 +289,16 @@ a:-webkit-any-link {
     color: var(--black);
     font-family: var(--sans-serif);
     text-decoration: underline;
-    margin-left: 20px;
+  }
+
+  .casestudy-link {
+    padding-bottom: 20px;
+    padding-left: 5px;
+  }
+
+  .casestudy a:hover {
+    color: var(--meadow);
+    transition: 0.2s;
   }
 
   .project-type-buttons button {
@@ -291,7 +311,83 @@ a:-webkit-any-link {
     background-color: transparent;
   }
 
-   /* ---- Casestudy Paragraph---- */
+
+  @media only screen and (max-width: 768px) {
+    .casestudy h2 {
+      font-size: 3.8em;
+    }
+
+    .casestudy a {
+      font-size: 1.4em; 
+    }
+
+    .filter-buttons {
+      justify-content: flex-start;
+    }
+   
+    .project-buttons {
+      margin-bottom: 10%;
+    }
+
+    .project-type-buttons button {
+      font-size: 1.4em;
+      padding: 10px 25px;
+      margin: 10px 8px 0px 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .casestudy h2 {
+      font-size: 3.6em;
+    }
+
+
+   .casestudy-link {
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+
+    .casestudy a {
+      font-size: 1.4em; 
+    }
+
+    .filter-buttons {
+      justify-content: flex-start;
+    }
+   
+    .project-buttons {
+      margin-bottom: 10%;
+    }
+
+    .project-type-buttons button {
+      font-size: 1.4em;
+      padding: 10px 25px;
+      margin: 10px 8px 0px 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .casestudy h2 {
+      font-size: 2.8em;
+    }
+
+    .casestudy a {
+      font-size: 1.3em; 
+    }
+   
+    .project-buttons {
+      margin-bottom: 10%;
+    }
+
+    .project-type-buttons button {
+      font-size: 1.3em;
+      padding: 10px 20px;
+      margin: px 8px 0px 0;
+    }
+  }
+
+   /* ---- Casestudy Paragraphs---- */
    .casestudy h4 {
     color: var(--blueberry);
     font-size: 2.3em;
@@ -307,3 +403,101 @@ a:-webkit-any-link {
     font-size: 1.5em;
     margin-top: 1%;
    }
+
+
+  @media only screen and (max-width: 768px) {
+   .casestudy h4 {
+      font-size: 2.1em;
+      margin-bottom: 3%;
+    }
+
+    .casestudy-paragraph {
+      margin: 8% 0;
+     }
+
+     .casestudy p {
+      font-size: 1.4em;
+     }
+  
+   }
+
+   @media only screen and (max-width: 480px) {
+    .casestudy h4 {
+       font-size: 2em;
+       margin-bottom: 3%;
+    }
+ 
+    .casestudy-paragraph {
+       margin: 8% 0;
+    }
+
+    .casestudy p {
+      font-size: 1.3em;
+    }
+ 
+    }
+
+  
+ /* ---- Casestudy Action Link---- */
+
+   .bottom-casestudy-link a{
+    text-decoration: none;
+    border: 1px solid var(--blueberry);
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-left: 0;
+   }
+
+   .bottom-casestudy-link a:hover{
+    color: var(--white);
+    background-color: var(--meadow);
+    transition: 0.2s;
+    border: 1px solid var(--meadow);
+   }
+
+
+   @media only screen and (max-width: 768px) {
+    .bottom-casestudy-link a{ 
+      font-size: 1.3em;
+    }
+   } 
+
+   @media only screen and (max-width: 480px) {
+    .bottom-casestudy-link a{ 
+      font-size: 1.2em;
+    }
+  
+   } 
+
+ /* ---- Next Steps Link---- */
+  .next-steps {
+    display: flex;
+    margin-top: 4%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+  }
+
+  .next-steps a {
+    font-size: 1.5em;
+    color: var(--blueberry);
+    text-align: right;
+  }
+
+  .next-steps a:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+  } 
+
+  @media only screen and (max-width: 768px) {
+    .next-steps {
+      display: flex;
+      margin-top: 3%;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .next-steps a {
+      margin: 2% 0;
+      font-size: 1.4em;
+    }
+  }  
