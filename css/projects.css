@@ -418,7 +418,7 @@ a:-webkit-any-link {
      }
 
      .casestudy p {
-      font-size: 1.4em;
+      font-size: 1.3em;
      }
   
    }
@@ -434,7 +434,7 @@ a:-webkit-any-link {
     }
 
     .casestudy p {
-      font-size: 1.3em;
+      font-size: 1.2em;
     }
  
     }
@@ -447,7 +447,14 @@ a:-webkit-any-link {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 4fr 3fr;
+  }
+
+  .double-image-row {
     grid-template-rows: 1fr 1fr;
+  }
+
+  .triple-image-row {
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   @media only screen and (max-width: 768px) {
@@ -462,19 +469,35 @@ a:-webkit-any-link {
     width: 100%;
   }
 
+  .image-row-1 {
+    grid-row: 1;
+  }
+
+  .image-row-2 { 
+    grid-row: 2;
+  }
+
+
   .grid-span {
     grid-column: 1 / span 2;
-    grid-row: 1;
     width: 100%;
   }
 
   .grid-3-4 {
-    grid-row: 2;
     max-width: 100%;
   }
 
+  .casestudy-images p {
+    font-size: 1.3em;
+    color: black;
+    text-align: center;
+  }
   
-
+  @media only screen and (max-width: 768px) {
+    .casestudy-images p {
+      font-size: 1.1em;
+    }
+   } 
 
  /* ---- Casestudy Action Link---- */
 
@@ -483,7 +506,12 @@ a:-webkit-any-link {
     border: 1px solid var(--blueberry);
     border-radius: 30px;
     padding: 10px 30px;
+    margin-top: 6%;
     margin-left: 0;
+   }
+
+   .cfat-bottom-link a {
+    margin-top: 0;
    }
 
    .bottom-casestudy-link a:hover{
