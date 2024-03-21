@@ -496,10 +496,28 @@ a:-webkit-any-link {
    } 
 
  /* ---- Casestudy Prototype Iframe ----- */
- /* .casestudy-prototype iframe {
-  width: 1366px;
+ /* .casestudy-prototype {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 5%;
+ } */
+
+ /* .iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+} */
+
+/* .iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
- }   */
+  border: none;
+  overflow: auto;
+} */
 
  /* ---- Casestudy Action Link---- */
 
