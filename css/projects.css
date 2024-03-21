@@ -205,10 +205,6 @@ a:-webkit-any-link {
   width: 60%;
 }
 
-.project-footer {
-  margin-bottom: 1%;
-}
-
 @media only screen and (max-width: 1024px) {
   .project-item {
     border: 2px solid var(--blueberry);
@@ -499,6 +495,12 @@ a:-webkit-any-link {
     }
    } 
 
+ /* ---- Casestudy Prototype Iframe ----- */
+ /* .casestudy-prototype iframe {
+  width: 1366px;
+  height: 100%;
+ }   */
+
  /* ---- Casestudy Action Link---- */
 
    .bottom-casestudy-link a{
@@ -551,6 +553,7 @@ a:-webkit-any-link {
     font-size: 1.5em;
     color: var(--blueberry);
     text-align: right;
+    border-bottom: 2px solid transparent;
   }
 
   .next-steps a:hover {
@@ -570,3 +573,9 @@ a:-webkit-any-link {
       font-size: 1.4em;
     }
   }  
+
+ /* ---- Project Footer---- */  
+ .project-footer p{
+  font-size: 1.8em;
+
+ }
