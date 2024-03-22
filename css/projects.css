@@ -395,13 +395,45 @@ a:-webkit-any-link {
     margin: 5% 0;
    }
 
+
+   .casestudy-paragraph .casestudy-subheader {
+    color: var(--black);
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 2.1em;
+    text-align: center;
+   }
+
+
    .casestudy p {
     font-family: var(--sans-serif);
     color: var(--black);
     font-size: 1.5em;
     margin-top: 1%;
+    line-height: 1.6;
    }
 
+
+   .casestudy ul {
+    margin: 5% auto;
+    width: 75%;
+    list-style: lower-alpha;
+   }
+
+   .casestudy ul li {
+    font-size: 1.5em;
+    font-family: var(--sans-serif);
+    color: var(--black);
+    margin: 20px 0;
+   }
+
+  @media only screen and (max-width: 1024px) {
+    .casestudy p, .casestudy ul li {
+      font-size: 1.3em;
+      line-height: 1.6;
+    }
+
+  } 
 
   @media only screen and (max-width: 768px) {
    .casestudy h4 {
@@ -409,14 +441,19 @@ a:-webkit-any-link {
       margin-bottom: 3%;
     }
 
+    .casestudy-paragraph .casestudy-subheader {
+      font-size: 1.6em;
+      margin-top: 5%;
+    }  
+
     .casestudy-paragraph {
       margin: 8% 0;
      }
 
-     .casestudy p {
-      font-size: 1.3em;
-     }
-  
+     .casestudy p, .casestudy ul li {
+      font-size: 1.1em;
+    }
+
    }
 
    @media only screen and (max-width: 480px) {
@@ -429,10 +466,9 @@ a:-webkit-any-link {
        margin: 8% 0;
     }
 
-    .casestudy p {
-      font-size: 1.2em;
+    .casestudy-paragraph .casestudy-subheader {
+      margin: 10% 0 8% 0;
     }
- 
     }
 
  /* ---- Casestudy Sample Images---- */
@@ -443,6 +479,7 @@ a:-webkit-any-link {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 4fr 3fr;
+    align-items: center;
   }
 
   .double-image-row {
@@ -488,10 +525,16 @@ a:-webkit-any-link {
     color: black;
     text-align: center;
   }
+
+  @media only screen and (max-width: 1024px) {
+    .casestudy-images p {
+      font-size: 1.1em;
+    }
+  }
   
   @media only screen and (max-width: 768px) {
     .casestudy-images p {
-      font-size: 1.1em;
+      font-size: 0.95em;
     }
    } 
 
