@@ -195,7 +195,7 @@
   
   /* ---------- S E C T I O N S ----------- */
   section {
-   padding: 5% 6%;
+   margin: 5% auto;
    width: 88%;
   }
 
@@ -713,7 +713,7 @@
     }
   
     .see-more-button a{
-      font-size: 1.6em;
+      font-size: 1.4em;
       padding: 10px 35px
     }
   }
@@ -828,12 +828,17 @@ footer {
   background-color: var(--mulberry_08);
   width: 100%;
   margin-top: 3%;
-  padding: 5% 0;
+  padding: 4% 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 0.9em;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
 }
 
 footer p {
@@ -848,23 +853,28 @@ footer p {
   align-items: center;
 }
 
-.footer-button a {
+.footer-text a {
   color: var(--wheat);
   font-size: 1.8em;
   letter-spacing: 1px;
   border-radius: 50px;
-  padding: 10px 50px;
+  padding: 10px 45px;
   margin-left: 30px;
   border: 1px solid #fff;
   white-space: nowrap;
 }
 
-.footer-button a:hover {
+.footer-text a:hover {
   color:var(--mulberry);
   background-color: var(--wheat);
   transition: 0.2s;
 }
 
+.copyright-section p {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 8%;
+}
 
 @media only screen and (max-width: 1024px) {
   footer {
@@ -876,10 +886,10 @@ footer p {
     font-size: 1.6em;
   }
 
-  .footer-button a {
+  .footer-text a {
     font-size: 1.4em;
-    padding: 10px 40px;
-    margin-left: 20px;
+    padding: 10px 35px;
+    margin-left: 15px;
   }
 }
 
@@ -888,10 +898,17 @@ footer p {
     flex-direction: column;
   }
 
-  .footer-button a {
-    padding: 8px 35px;
-    margin-top: 15px;
-    margin-left: 0;
+  footer p {
+    font-size: 1.4em;
+  }
+
+  .footer-text a {
+    padding: 6px 25px;
+    font-size: 1.3em;
+  }
+
+  .copyright-section p {
+    font-size: 1em;
   }
 }
 
@@ -900,8 +917,17 @@ footer p {
     padding: 9% 0;
   }
 
+  .footer-text {
+    flex-direction: column;
+  }
+
+  .footer-text a{
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
+
   footer p {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 
   .footer-button a {
