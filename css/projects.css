@@ -635,8 +635,8 @@ a:-webkit-any-link {
     }
   }  
 
- /* ---- Project Footer---- */  
- .project-footer p{
-  font-size: 1.8em;
+ /* ---- Casestudy Footer---- */  
+ .casestudy-footer p{
+  margin: 5% 0;
 
  }
