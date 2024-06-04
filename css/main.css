@@ -603,7 +603,6 @@
     align-items: flex-end;
     border: 3px solid #fff;
     border-radius: 30px;   
-    /* box-shadow: 35px 35px var(--mulberry_08);  */
     width: 75%;
     margin-left: 15%;
   } 
@@ -646,7 +645,6 @@
     .project-screenshot img{
       border: 3px solid #fff;
       width: 80%;
-      /* box-shadow: 50px 50px var(--mulberry_08);  */
     }
   
     .project-2 img {
