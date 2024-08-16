@@ -485,7 +485,12 @@ a:-webkit-any-link {
     grid-gap: 15px;
     grid-template-columns: 4fr 3fr;
     align-items: center;
+    max-width: 1300px;
   }
+
+  .two-column-row {
+    grid-template-columns: 1fr 1fr;
+}
 
   .double-image-row {
     grid-template-rows: 1fr 1fr;
