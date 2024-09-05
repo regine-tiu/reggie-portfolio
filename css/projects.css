@@ -386,6 +386,11 @@ a:-webkit-any-link {
     }
   }
 
+   /* ---- Casestudy Table of Contents---- */
+   .casestudy .table-of-contents{
+    margin-top: 7%;
+  }
+
    /* ---- Casestudy Paragraphs---- */
    .casestudy h4 {
     color: var(--blueberry);
