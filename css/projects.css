@@ -386,9 +386,51 @@ a:-webkit-any-link {
     }
   }
 
-   /* ---- Casestudy Table of Contents---- */
-   .casestudy .table-of-contents{
-    margin-top: 7%;
+  /*---------------Grid Container ---------------*/
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 8% 0%;
+}
+
+  .column {
+    flex: 1;
+    margin: 0 20px;
+  }
+
+   /* ---- Project Overview---- */
+   .project-overview ul li{
+    list-style-type: none;;
+   }
+
+   .project-overview .overview {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   }
+  
+
+
+   /* ---- Casestudy Index---- */
+ 
+
+  .table-of-contents ul.index{
+    list-style-type: disc;
+    margin-left: 5% ;
+  }
+
+  ul.index a {
+    font-size: 1em;
+    /* text-decoration: none; */
+  }
+
+  .casestudy .index li {
+    margin: 10 0;
+  }
+
+  ul.index .submenu li {
+    margin: 5%;
   }
 
    /* ---- Casestudy Paragraphs---- */
@@ -549,30 +591,6 @@ a:-webkit-any-link {
       font-size: 0.95em;
     }
    } 
-
- /* ---- Casestudy Prototype Iframe ----- */
- /* .casestudy-prototype {
-  position: relative;
-  width: 95%;
-  margin: 0 auto;
-  margin-top: 5%;
- } */
-
- /* .iframe-container {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; 
-} */
-
-/* .iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  overflow: auto;
-} */
 
  /* ---- Casestudy Action Link---- */
 
