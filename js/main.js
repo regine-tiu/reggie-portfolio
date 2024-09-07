@@ -16,4 +16,19 @@ $(document).ready(function() {
             $('.project-item').show(); // If no filters selected, show all project items
         }
     });
+
+
+    // $('.toggle-btn').on('click', function() {
+    //     const targetId = $(this).data('target'); // the-client
+    //     const content = $('#' + targetId); // #the-client
+    //     const arrow = $(this).find('.arrow');
+
+    //     if (content.css('display') === 'none') {
+    //         content.show();
+    //         arrow.addClass('open');
+    //     } else {
+    //         content.hide();
+    //         arrow.removeClass('open');
+    //     }
+    // });
 });

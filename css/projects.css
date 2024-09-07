@@ -400,6 +400,37 @@ a:-webkit-any-link {
     margin: 0 20px;
   }
 
+
+  /*---------------Collapsable Content ---------------*/
+  /* Basic styling for collapsible content */
+.collapsible-content {
+  display: none; /* Hidden by default */
+  margin-top: 10px;
+}
+
+/* Style for the toggle button */
+.toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+/* Arrow style */
+.arrow {
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when content is visible */
+.arrow.open {
+  transform: rotate(90deg); /* Rotate arrow to point down */
+}
+
+
+
    /* ---- Project Overview---- */
    .project-overview {
 width: 40%;
