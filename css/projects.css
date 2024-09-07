@@ -403,31 +403,31 @@ a:-webkit-any-link {
 
   /*---------------Collapsable Content ---------------*/
   /* Basic styling for collapsible content */
-.collapsible-content {
-  display: none; /* Hidden by default */
+/* .collapsible-content {
+  display: none; 
   margin-top: 10px;
-}
+} */
 
 /* Style for the toggle button */
-.toggle-btn {
+/* .toggle-btn {
   background: none;
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   text-align: left;
-}
+} */
 
 /* Arrow style */
-.arrow {
+/* .arrow {
   margin-right: 10px;
   transition: transform 0.3s ease;
-}
+} */
 
 /* Rotate arrow when content is visible */
-.arrow.open {
-  transform: rotate(90deg); /* Rotate arrow to point down */
-}
+/* .arrow.open {
+  transform: rotate(90deg); 
+} */
 
 
 
