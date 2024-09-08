@@ -629,6 +629,7 @@ a:-webkit-any-link {
  /* ---- Casestudy Sample Images---- */
 
   .casestudy-images {
+    max-width: 1300px;
     width: 95%;
     margin: 0 auto;
     display: grid;
