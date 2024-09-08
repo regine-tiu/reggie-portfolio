@@ -392,7 +392,6 @@ a:-webkit-any-link {
     justify-content: space-between;
     flex-direction: row;
     margin: 6% 0%;
-  
 }
 
   .column {
@@ -400,6 +399,23 @@ a:-webkit-any-link {
     margin: 0 20px;
   }
 
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .column {
+      flex: 1;
+      margin: 0 15px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .column {
+      flex: 1;
+      margin: 0 5px;
+    }
+    }
 
   /*---------------Collapsable Content ---------------*/
   /* Basic styling for collapsible content */
@@ -433,7 +449,7 @@ a:-webkit-any-link {
 
    /* ---- Project Overview---- */
    .project-overview {
-width: 40%;
+      width: 40%;
    }
 
    .project-overview ul li{
@@ -446,6 +462,12 @@ width: 40%;
     width: 100%;
    }
   
+
+   @media only screen and (max-width: 768px) {
+    .project-overview {
+      width: 100%;
+   }
+  } 
 
 
    /* ---- Table of Contents---- */
@@ -477,21 +499,36 @@ width: 40%;
     margin: 5%;
   }
 
+  @media only screen and (max-width: 768px) {
+    .table-of-contents .submenu {
+      width: 100%;
+    }
+
+    .casestudy .index li {
+      margin: 4% 0;
+    }
+
+    ul.index .submenu li {
+      margin: 4%;
+    }
+ 
+    }
+
    /* ---- Casestudy Paragraphs---- */
    .casestudy h4 {
     color: var(--blueberry);
     font-size: 2.3em;
+    margin: 2% 0
    }
 
    .casestudy-paragraph {
-    margin: 5% 0.5%;
+    margin: 6% 0.5%;
    }
 
 
    .casestudy-paragraph .casestudy-subheader {
     color: var(--black);
-    margin-top: 4%;
-    margin-bottom: 3%;
+    margin: 5% 0;
     font-size: 2.1em;
     text-align: center;
    
@@ -499,8 +536,7 @@ width: 40%;
 
    .casestudy-paragraph .casestudy-tertiary-header {
     color: var(--black);
-    margin-top: 4%;
-    margin-bottom: 3%;
+    margin: 5% 0 4% 0;
     font-size: 1.9em;
     text-align: center;
    }
@@ -512,7 +548,6 @@ width: 40%;
     margin-top: 1%;
     line-height: 1.6;
    }
-
 
    .casestudy ul {
     margin: 5% auto;
@@ -534,8 +569,19 @@ width: 40%;
     }
 
     .casestudy-paragraph {
-      margin: 5% 1%;
+      margin: 8% 1%;
     }  
+
+    .casestudy-paragraph .casestudy-subheader {
+      margin: 7% 0;
+      font-size: 2em;
+     
+     }
+  
+     .casestudy-paragraph .casestudy-tertiary-header {
+      margin: 5% 0;
+      font-size: 1.8em;
+     }
 
   } 
 
@@ -546,9 +592,14 @@ width: 40%;
     }
 
     .casestudy-paragraph .casestudy-subheader {
-      font-size: 1.6em;
-      margin-top: 5%;
+      font-size: 1.9em;
+      margin: 5% 0 3% 0;
     }  
+
+    .casestudy-paragraph .casestudy-tertiary-header {
+      margin: 6% 0 5% 0;
+      font-size: 1.7em;
+     }
 
     .casestudy-paragraph {
       margin: 8% 2%;
@@ -643,6 +694,11 @@ width: 40%;
       font-size: 0.95em;
     }
    } 
+
+ /* ---- Casestudy Paragraph Links---- */
+.casestudy-paragraph a {
+  font-size: 1em ;
+}
 
  /* ---- Casestudy Action Link---- */
 
